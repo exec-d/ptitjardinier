@@ -47,8 +47,9 @@ Le catalogue grandit par simple ajout de fiches OTA, sans nouvelle version de l'
 Ce dépôt contient à ce stade **23 fiches** : trois fiches d'épreuve écrites pour éprouver le
 vocabulaire des sept ancres avant de figer le format — pommier (`malus-domestica`, verger),
 rosier (`rosa`, ornement), ail (`allium-sativum`, potager) — voir `docs/verdict-ancres.md` —
-et vingt fiches potager qui forment la première couverture réelle (aromatique et fruitier
-restent, pour l'instant, uniquement représentés par basilic et pommier). **Toutes les 23**
+dix-neuf autres fiches potager qui forment l'essentiel de la première couverture réelle, et
+une fiche aromatique (basilic, `ocimum-basilicum`) qui s'y ajoute (3 + 19 + 1 = 23). Le verger
+et l'ornemental restent donc représentés uniquement par les fiches d'épreuve. **Toutes les 23**
 sont encore `"confiance": "a-relire"`, sans exception.
 
 C'est un engagement du projet, pas une limite provisoire qu'on cache : l'application **assume et

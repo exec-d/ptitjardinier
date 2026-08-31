@@ -28,7 +28,7 @@
       "libelle": "Récolter les fruits",
       "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 95 },
       "urgence": "souple",
-      "conseil": "Le délai varie fortement selon la variété : Gerbeaud cite 70 jours de croissance pour un Spaghetti végétal, 100 jours pour une Citrouille de Touraine, 125 jours pour un potiron Rouge Vif d'Étampes. En retenant cette dernière variété comme référence et le mois écoulé entre semis et repiquage, cela correspond à environ 95 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement, à ajuster selon la variété réellement plantée. Récolter avant tout risque de gel : pédoncule desséché et peau résistant à l'ongle sont des signes de maturité usuels, non chiffrés par Gerbeaud, qui ne donne aucun signe de récolte précis. Gerbeaud situe en revanche la conservation à 3 à 6 mois entre 15 et 20°C."
+      "conseil": "Le délai varie fortement selon la variété : Gerbeaud cite 70 jours de croissance pour un Spaghetti végétal, 100 jours pour une Citrouille de Touraine, 125 jours pour un potiron Rouge Vif d'Étampes. En retenant cette dernière variété comme référence et le mois écoulé entre semis et repiquage, cela correspond à environ 95 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement, à ajuster selon la variété réellement plantée. Récolter avant tout risque de gel. Gerbeaud donne trois signes de maturité : un feuillage qui jaunit, des tiges qui sèchent, un pédoncule qui semble vouloir se détacher du fruit. Un test usuel mais non donné par cette source, la peau qui résiste à l'ongle, peut compléter ces trois signes. Gerbeaud situe par ailleurs la conservation à 3 à 6 mois entre 15 et 20°C."
     }
   ],
   "sources": [
