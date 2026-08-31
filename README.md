@@ -29,6 +29,8 @@ par [`exec-d/plusdsaison`](https://github.com/exec-d/plusdsaison).
 - **`docs/verdict-ancres.md`** — le verdict, écrit en éprouvant le vocabulaire des sept ancres sur
   trois fiches délibérément difficiles (pommier, rosier, ail), sur le fait qu'il suffise.
 - **`DATA-LICENSE.md`** — les licences et attributions, jeu de données par jeu de données.
+- **`LICENSE`** — texte complet de la licence CC BY-SA 4.0 qui couvre le contenu original des
+  fiches (voir `DATA-LICENSE.md` pour le périmètre exact).
 
 ## Comment l'application l'utilise
 
@@ -70,8 +72,14 @@ ferait disparaître des fiches de la recherche sans qu'aucune erreur ne le signa
 
 ## Licences
 
-Les données de ce dépôt viennent de sources aux licences différentes, mêlées à du contenu
-original. Le détail, jeu par jeu, est dans [`DATA-LICENSE.md`](DATA-LICENSE.md).
+Ce dépôt mélange plusieurs licences, pas une seule : le contenu original des fiches (gestes,
+conseils, paramètres agronomiques) est sous **CC BY-SA 4.0** (texte complet dans
+[`LICENSE`](LICENSE)), le squelette botanique importé de Wikidata reste **CC0**, et les
+mentions climatiques et communales affichées par l'application mais héritées de
+`exec-d/plusdsaison` gardent leurs propres licences et leurs attributions obligatoires. Le code
+de ce dépôt (`tools/`, workflows) n'entre dans aucune de ces catégories ; sa licence n'a pas été
+tranchée. Le détail, jeu par jeu, est dans [`DATA-LICENSE.md`](DATA-LICENSE.md) — à lire avant
+de réutiliser quoi que ce soit de ce dépôt.
 
 ---
 
