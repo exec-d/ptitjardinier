@@ -14,7 +14,7 @@
       "libelle": "Semer en fin d'été pour l'arrière-saison",
       "quand": { "ancre": "premiere-gelee", "quantile": 0.5, "decalageJours": -49 },
       "urgence": "fenetre",
-      "conseil": "Jardiner Malin situe ce semis d'automne en août-septembre, pour une récolte d'automne, et jusqu'en octobre pour une récolte d'hiver — un créneau que cette fiche traduit en un décalage d'environ 7 semaines avant la première gelée, estimation propre à cette fiche et non un délai donné tel quel par la source. Semer clair, en sillons de 2 à 3 cm de profondeur (Jardiner Malin) : c'est l'inverse du semis de printemps, qui risque la montée à graines dès que la durée du jour dépasse 14 à 16 heures et que le sol reste durablement au-dessus de 20°C (PotagerFruitier) — un risque que l'arrière-saison, jours courts et sol qui refroidit, écarte de lui-même."
+      "conseil": "Jardiner Malin situe ce semis d'automne en août-septembre, pour une récolte d'automne, et jusqu'en octobre pour une récolte d'hiver — un créneau que cette fiche traduit en un décalage d'environ 7 semaines avant la première gelée, estimation propre à cette fiche et non un délai donné tel quel par la source. Semer clair, en sillons de 2 à 3 cm de profondeur (Jardiner Malin) : c'est l'inverse du semis de printemps, qui risque la montée à graines dès que la durée du jour dépasse 14 à 16 heures et que les températures restent durablement au-dessus de 20°C (PotagerFruitier) — la source ne précise pas s'il s'agit du sol ou de l'air — un risque que l'arrière-saison, jours courts et sol qui refroidit, écarte de lui-même."
     },
     {
       "type": "recolte",

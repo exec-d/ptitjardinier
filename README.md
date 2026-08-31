@@ -44,16 +44,17 @@ Le catalogue grandit par simple ajout de fiches OTA, sans nouvelle version de l'
 
 ## Le catalogue est incomplet — assumé, pas une excuse
 
-Ce dépôt ne contient à ce stade que **trois fiches d'épreuve** — pommier (`malus-domestica`),
-rosier (`rosa`), ail (`allium-sativum`) — choisies pour être délibérément difficiles et éprouver
-le vocabulaire des sept ancres avant de figer le format (voir `docs/verdict-ancres.md`). Toutes
-trois sont encore `"confiance": "a-relire"`. Les fiches potager qui formeront la première
-couverture réelle ne sont pas encore écrites.
+Ce dépôt contient à ce stade **23 fiches** : trois fiches d'épreuve écrites pour éprouver le
+vocabulaire des sept ancres avant de figer le format — pommier (`malus-domestica`, verger),
+rosier (`rosa`, ornement), ail (`allium-sativum`, potager) — voir `docs/verdict-ancres.md` —
+et vingt fiches potager qui forment la première couverture réelle (aromatique et fruitier
+restent, pour l'instant, uniquement représentés par basilic et pommier). **Toutes les 23**
+sont encore `"confiance": "a-relire"`, sans exception.
 
 C'est un engagement du projet, pas une limite provisoire qu'on cache : l'application **assume et
 affiche** que sa couverture est partielle plutôt que de laisser croire à un catalogue complet. Le
-verger et l'ornemental s'y ajoutent après coup, en continu, sans jamais viser un lot initial
-exhaustif.
+verger et l'ornemental restent très peu couverts, et s'ajoutent après coup, en continu, sans
+jamais viser un lot initial exhaustif.
 
 ## Valider et régénérer localement
 

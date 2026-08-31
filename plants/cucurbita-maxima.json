@@ -1,6 +1,6 @@
 {
   "id": "cucurbita-maxima",
-  "nomsFr": ["Courge", "Potiron"],
+  "nomsFr": ["Potiron", "Courge"],
   "nomLatin": "Cucurbita maxima",
   "famille": "Cucurbitaceae",
   "categorie": "potager",
@@ -14,7 +14,7 @@
       "libelle": "Semer sous abri",
       "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -30 },
       "urgence": "fenetre",
-      "conseil": "Comme la courgette, une graine qui exige de la chaleur pour germer : Gerbeaud la classe parmi les légumes semés à partir de 15°C. Semer en godet à l'abri en mars-avril (Jardinier Amateur), pour un repiquage environ un mois plus tard."
+      "conseil": "Cette fiche couvre le potiron (Cucurbita maxima) : sous le nom générique « courge », d'autres espèces existent (butternut et courges musquées sont Cucurbita moschata, la courgette déjà au catalogue est Cucurbita pepo) et ne suivent pas nécessairement le même calendrier. Comme la courgette, une graine qui exige de la chaleur pour germer : Gerbeaud la classe parmi les légumes semés à partir de 15°C. Semer en godet à l'abri en mars-avril (Jardinier Amateur), pour un repiquage environ un mois plus tard."
     },
     {
       "type": "repiquage",
@@ -28,7 +28,7 @@
       "libelle": "Récolter les fruits",
       "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 95 },
       "urgence": "souple",
-      "conseil": "Le délai varie fortement selon la variété : Gerbeaud cite 70 jours de croissance pour un Spaghetti végétal, 100 jours pour une Citrouille de Touraine, 125 jours pour un potiron Rouge Vif d'Étampes. En retenant cette dernière variété comme référence et le mois écoulé entre semis et repiquage, cela correspond à environ 95 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement, à ajuster selon la variété réellement plantée. Récolter avant tout risque de gel, pédoncule desséché et peau résistant à l'ongle, puis conserver 3 à 6 mois entre 15 et 20°C (Gerbeaud)."
+      "conseil": "Le délai varie fortement selon la variété : Gerbeaud cite 70 jours de croissance pour un Spaghetti végétal, 100 jours pour une Citrouille de Touraine, 125 jours pour un potiron Rouge Vif d'Étampes. En retenant cette dernière variété comme référence et le mois écoulé entre semis et repiquage, cela correspond à environ 95 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement, à ajuster selon la variété réellement plantée. Récolter avant tout risque de gel : pédoncule desséché et peau résistant à l'ongle sont des signes de maturité usuels, non chiffrés par Gerbeaud, qui ne donne aucun signe de récolte précis. Gerbeaud situe en revanche la conservation à 3 à 6 mois entre 15 et 20°C."
     }
   ],
   "sources": [

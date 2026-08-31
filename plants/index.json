@@ -1,20 +1,20 @@
 [
   {
-    "id": "allium-ascalonicum",
-    "nomsFr": [
-      "Échalote"
-    ],
-    "nomLatin": "Allium ascalonicum",
-    "famille": "Amaryllidaceae",
-    "categorie": "potager",
-    "confiance": "a-relire"
-  },
-  {
     "id": "allium-cepa",
     "nomsFr": [
       "Oignon"
     ],
     "nomLatin": "Allium cepa",
+    "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "allium-cepa-var-aggregatum",
+    "nomsFr": [
+      "Échalote"
+    ],
+    "nomLatin": "Allium cepa var. aggregatum",
     "famille": "Amaryllidaceae",
     "categorie": "potager",
     "confiance": "a-relire"
@@ -41,24 +41,24 @@
     "confiance": "a-relire"
   },
   {
-    "id": "beta-cicla",
-    "nomsFr": [
-      "Blette",
-      "Poirée",
-      "Bette à cardes"
-    ],
-    "nomLatin": "Beta cicla",
-    "famille": "Amaranthaceae",
-    "categorie": "potager",
-    "confiance": "a-relire"
-  },
-  {
     "id": "beta-vulgaris",
     "nomsFr": [
       "Betterave",
       "Betterave rouge"
     ],
     "nomLatin": "Beta vulgaris",
+    "famille": "Amaranthaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "beta-vulgaris-subsp-cicla",
+    "nomsFr": [
+      "Blette",
+      "Poirée",
+      "Bette à cardes"
+    ],
+    "nomLatin": "Beta vulgaris subsp. cicla",
     "famille": "Amaranthaceae",
     "categorie": "potager",
     "confiance": "a-relire"
@@ -87,8 +87,8 @@
   {
     "id": "cucurbita-maxima",
     "nomsFr": [
-      "Courge",
-      "Potiron"
+      "Potiron",
+      "Courge"
     ],
     "nomLatin": "Cucurbita maxima",
     "famille": "Cucurbitaceae",
