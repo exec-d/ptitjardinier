@@ -18,6 +18,16 @@
 # existe pour attraper, déplacé sur une autre surface d'édition.
 # manifest.json est listé explicitement pour la même raison ;
 # plants/index.json n'a pas besoin de l'être, déjà couvert par "plants/**".
+#
+# workflow_dispatch : GitHub n'évalue pas un filtre paths sur le push qui
+# crée une branche (il n'a aucune base de comparaison pour dire quels
+# chemins ont changé) — le push initial de ce dépôt sur GitHub n'a donc
+# jamais déclenché ce workflow, alors qu'il touchait plants/**,
+# manifest.json et les deux outils. Sans un déclenchement manuel, ce
+# garde-fou serait resté invérifié jusqu'au prochain push normal, et
+# resterait de toute façon inatteignable après un incident ou une panne de
+# runner. Même motif que backfill.yml, daily.yml et validate.yml chez
+# exec-d/plusdsaison, qui ont tous ce déclencheur.
 name: Valider les fiches
 
 on:
@@ -35,6 +45,7 @@ on:
       - "tools/valider.py"
       - "tools/construire_index.py"
       - "manifest.json"
+  workflow_dispatch:
 
 jobs:
   valider:
