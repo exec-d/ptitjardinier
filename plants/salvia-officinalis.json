@@ -1,0 +1,48 @@
+{
+  "id": "salvia-officinalis",
+  "nomsFr": ["Sauge officinale", "Sauge"],
+  "nomLatin": "Salvia officinalis",
+  "famille": "Lamiaceae",
+  "categorie": "aromatique",
+  "cycle": "vivace",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 6,
+  "feuillage": "persistant",
+  "sol": { "phMin": 6.5, "phMax": 8.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille-printemps",
+      "libelle": "Rabattre au printemps",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": 7 },
+      "urgence": "fenetre",
+      "conseil": "Dès que les risques de fortes gelées sont écartés — mars en climat doux, fin avril plus au nord — rabattre de moitié au-dessus du bois vert (Autonomiejardin). Sur un pied âgé et dégarni, rabattre les vieilles branches à 15-20 cm du sol au printemps : la sauge officinale repart généralement bien de la base (Catharsius), mais ne jamais couper dans du bois sans aucun bourgeon visible."
+    },
+    {
+      "type": "taille-floraison",
+      "libelle": "Tailler les hampes fanées",
+      "quand": { "ancre": "geste-precedent", "geste": "taille-printemps", "jours": 75 },
+      "urgence": "souple",
+      "conseil": "Après la floraison, en juin-juillet, une taille légère des hampes florales suffit (Autonomiejardin) ; ne plus tailler après août, pour ne pas fragiliser la rusticité hivernale. Les 75 jours retenus pour chaîner sur la taille de printemps sont un calcul dérivé entre les deux fenêtres calendaires que donne la source, sans qu'elle les relie directement — se fier avant tout aux hampes florales fanées."
+    },
+    {
+      "type": "bouturage",
+      "libelle": "Bouturer des tiges semi-aoûtées",
+      "quand": { "ancre": "date-civile", "date": "08-20" },
+      "urgence": "fenetre",
+      "conseil": "Les meilleurs résultats sont obtenus avec des boutures de tiges semi-aoûtées, prélevées en fin d'été, 10 à 15 cm, feuilles de la base retirées (Catharsius). Enracinement en quelques semaines. Repère calendaire retenu faute de seuil climatique publié pour la maturité du bois."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Quand tailler la sauge ? Calendrier par variété et erreurs à éviter (Autonomiejardin)",
+      "url": "https://www.autonomiejardin.com/autour-du-jardin/quand-tailler-la-sauge/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Sauge officinale : les secrets d'une taille réussie pour une plante vigoureuse (Catharsius)",
+      "url": "https://www.catharsius.fr/plante-sauge-officinale/soin/guide-de-taille-et-delagage/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

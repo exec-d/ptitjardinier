@@ -1,0 +1,50 @@
+{
+  "id": "petroselinum-crispum",
+  "nomsFr": ["Persil"],
+  "nomLatin": "Petroselinum crispum",
+  "famille": "Apiaceae",
+  "categorie": "aromatique",
+  "cycle": "annuelle",
+  "rusticiteMinC": -10,
+  "heuresSoleilMin": 4,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en place",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud classe le persil, avec la betterave, le navet et le pois, parmi les légumes semés à partir de 10°C au sol. La germination est réputée longue et irrégulière : jusqu'à 3 semaines selon Jardiner Malin, en moyenne 3 à 4 semaines selon Biodiversité France — tremper les graines une journée dans l'eau, ou les recouvrir d'un verre ou d'un tissu humide, accélère la levée (Gerbeaud)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Couper les feuilles au fur et à mesure",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 60 },
+      "urgence": "souple",
+      "conseil": "Biodiversité France situe la première récolte à environ 2 mois après le semis, une fois les feuilles bien formées. Couper les tiges au fur et à mesure des besoins plutôt qu'en une fois."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Persil (Petroselinum crispum) (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/persil-petroselinum-crispum.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Persil : une plante aromatique facile à cultiver (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/persil.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "La culture du persil, du semis à la récolte (Biodiversité France)",
+      "url": "https://biodiversitefrance.com/la-culture-du-persil-du-semis-a-la-recolte/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

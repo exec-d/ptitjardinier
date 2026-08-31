@@ -1,0 +1,58 @@
+{
+  "id": "thymus-vulgaris",
+  "nomsFr": ["Thym", "Thym commun"],
+  "nomLatin": "Thymus vulgaris",
+  "famille": "Lamiaceae",
+  "categorie": "aromatique",
+  "cycle": "vivace",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 6,
+  "feuillage": "persistant",
+  "sol": { "phMin": 6.5, "phMax": 8.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille-printemps",
+      "libelle": "Tailler légèrement au printemps",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": 14 },
+      "urgence": "fenetre",
+      "conseil": "Une première taille de nettoyage se fait mars-avril, après les dernières gelées (Region Espaces Verts) : conserver impérativement 10 à 12 cm de feuillage vert sur chaque tige, sans jamais rabattre plus d'un tiers des pousses vertes. Ne jamais couper dans le vieux bois grisâtre : au-delà de 3 ans, il ne porte plus aucun bourgeon dormant et ne repart jamais (Region Espaces Verts)."
+    },
+    {
+      "type": "taille-floraison",
+      "libelle": "Tailler après la floraison",
+      "quand": { "ancre": "geste-precedent", "geste": "taille-printemps", "jours": 90 },
+      "urgence": "fenetre",
+      "conseil": "La taille principale suit la floraison : juin-juillet selon Region Espaces Verts, fin juin à août selon Jardiner Malin. Les 90 jours retenus pour chaîner sur la taille de printemps sont un calcul dérivé de ces deux fenêtres calendaires, que les sources ne relient pas directement l'une à l'autre — se fier avant tout aux fleurs fanées. Même règle que la taille de printemps : un tiers maximum, 10-12 cm de feuillage vert conservés, jamais dans le bois nu."
+    },
+    {
+      "type": "bouturage",
+      "libelle": "Bouturer des tiges semi-ligneuses",
+      "quand": { "ancre": "date-civile", "date": "06-25" },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud situe le bouturage en été, idéalement de fin juin à fin août : prélever une extrémité de tige de 10 cm, la garder à l'abri du gel tout l'hiver, puis la planter au jardin au printemps ou à l'automne suivant. Repère calendaire retenu faute de seuil climatique publié pour la maturité du bois (tige semi-lignifiée) qui déclenche vraiment ce geste. Le thym s'épuise et se dégarnit après 3 à 4 ans (Planète Agrobio, Region Espaces Verts) : le bouturage permet de renouveler le pied plutôt que d'attendre qu'il devienne entièrement ligneux — un renouvellement pluriannuel, lui aussi hors de portée d'une ancre unique."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Comment semer et cultiver le thym ? (Planète Agrobio)",
+      "url": "https://www.planete-agrobio.com/culture-semis-thym/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand tailler le thym : calendrier et technique pour éviter le bois mort (Region Espaces Verts)",
+      "url": "https://regionespacesverts.fr/quand-tailler-le-thym/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Thym : culture, entretien et récolte au fil des saisons (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/thym.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand et comment bouturer le thym ? (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/comment-bouturer-le-thym,2524.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

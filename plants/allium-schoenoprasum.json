@@ -1,0 +1,62 @@
+{
+  "id": "allium-schoenoprasum",
+  "nomsFr": ["Ciboulette"],
+  "nomLatin": "Allium schoenoprasum",
+  "famille": "Amaryllidaceae",
+  "categorie": "aromatique",
+  "cycle": "vivace",
+  "rusticiteMinC": -20,
+  "heuresSoleilMin": 5,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "plantation",
+      "libelle": "Installer les jeunes plants",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": 7 },
+      "urgence": "fenetre",
+      "conseil": "Jardiner Malin situe la plantation d'avril à octobre, hors gel — une plante bien plus tolérante au froid qu'une aromatique comme le basilic, une semaine de marge après la dernière gelée suffit largement. Arroser régulièrement à la reprise."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Couper les tiges",
+      "quand": { "ancre": "geste-precedent", "geste": "plantation", "jours": 75 },
+      "urgence": "souple",
+      "conseil": "Attendre que les tiges mesurent 20 à 30 cm avant la première coupe (Jardiner Malin). Tous au Potager compte environ 2 à 3 mois entre semis et première récolte (75 jours retenus ici, au milieu de cette fourchette) — un délai qui vaut pour un semis et sera probablement plus court en partant d'un jeune plant déjà développé. Couper les tiges à leur base, à environ 2 cm du sol en laissant 3 cm de vert, sans jamais retirer plus d'un tiers de la touffe (Pauline B.) : une fois la touffe installée, la coupe se renouvelle ensuite au moins toutes les 3 semaines, ou toutes les 4 à 6 semaines en pleine saison (Pauline B.) — une récurrence que geste-precedent ne peut exprimer qu'une fois, pas pour toute la saison."
+    },
+    {
+      "type": "division-touffe",
+      "libelle": "Diviser la touffe",
+      "quand": { "ancre": "dormance", "phase": "fin", "decalageJours": 0 },
+      "urgence": "fenetre",
+      "conseil": "Diviser tous les deux à trois ans (Truffaut) — Tous au Potager élargit à 2 à 4 ans — de préférence en mars ou avril (Truffaut) ; l'automne convient aussi (Tous au Potager, Aujardin.info). Déterrer la motte à la fourche-bêche, séparer en 3-4 éclats au couteau et replanter aussitôt (Aujardin.info) ; compter encore 1 à 2 mois avant qu'un éclat ne soit prêt à repartir en pleine terre (Aujardin.info). Cette division périodique ne se pilote pas comme les gestes annuels de la fiche : aucune ancre n'exprime une récurrence de plusieurs années, seulement une date dans la saison."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Diviser la ciboulette (Aujardin.info)",
+      "url": "https://www.aujardin.info/fiches/diviser-ciboulette.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Ciboulette : semis, plantation, entretien et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/ciboulette.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Conseils d'entretien et de plantation de la ciboulette (Truffaut)",
+      "url": "https://www.truffaut.com/ciboulette-varietes-plantation-entretien.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Culture de la ciboulette du semis à la récolte (Tous au Potager)",
+      "url": "https://tous-au-potager.fr/culture-ciboulette/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Comment couper la ciboulette pour qu'elle repousse (Le blog de Pauline)",
+      "url": "https://www.pauline-b.com/jardin/comment-couper-la-ciboulette-pour-quil-repousse/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

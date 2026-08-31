@@ -1,0 +1,52 @@
+{
+  "id": "mentha-spicata",
+  "nomsFr": ["Menthe verte", "Menthe"],
+  "nomLatin": "Mentha spicata",
+  "famille": "Lamiaceae",
+  "categorie": "aromatique",
+  "cycle": "vivace",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 4,
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "humide" },
+  "gestes": [
+    {
+      "type": "semis",
+      "libelle": "Semer sous abri ou en place",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": 0 },
+      "urgence": "fenetre",
+      "conseil": "La menthe verte se plante au printemps ou à l'automne (Jardiner Malin) ; les graines germent en environ 10 jours (Cultivea)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Couper les tiges",
+      "quand": { "ancre": "geste-precedent", "geste": "semis", "jours": 42 },
+      "urgence": "souple",
+      "conseil": "Cultivea compte environ 6 semaines entre le semis et des feuilles bonnes à récolter. Couper des tiges entières plutôt que les feuilles une à une, de préférence le matin après évaporation de la rosée (Jardiner Malin) ; pincer les nouvelles pousses pour empêcher la touffe de monter trop haut (Jardiner Malin)."
+    },
+    {
+      "type": "division-touffe",
+      "libelle": "Diviser la touffe",
+      "quand": { "ancre": "date-civile", "date": "09-15" },
+      "urgence": "fenetre",
+      "conseil": "Une fois bien installée, la touffe se divise en automne pour être replantée (Jardiner Malin) — un repère saisonnier plutôt qu'une date précise, faute de mieux dans la source. La fiche générale menthe du même site recommande de diviser tous les 2 à 3 ans, pour rajeunir la plante et contrôler ses rhizomes traçants, volontiers envahissants — une récurrence pluriannuelle qu'aucune ancre du vocabulaire n'exprime directement."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Mentha spicata - Menthe verte : plantation, entretien et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/mentha-spicata.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Menthe : culture, entretien et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/menthe.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "En combien de temps les graines de menthe poussent ? (Cultivea)",
+      "url": "https://cultivea.com/en/blogs/herbes/graine-de-menthe-combien-de-temps-pour-pousser",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

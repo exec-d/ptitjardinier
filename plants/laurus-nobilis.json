@@ -1,0 +1,41 @@
+{
+  "id": "laurus-nobilis",
+  "nomsFr": ["Laurier sauce", "Laurier noble", "Laurier"],
+  "nomLatin": "Laurus nobilis",
+  "famille": "Lauraceae",
+  "categorie": "aromatique",
+  "cycle": "arbustive",
+  "rusticiteMinC": -10,
+  "heuresSoleilMin": 5,
+  "feuillage": "persistant",
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille",
+      "libelle": "Tailler pour donner une forme",
+      "quand": { "ancre": "dormance", "phase": "fin", "decalageJours": -7 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud recommande de tailler en fin d'hiver pour donner une forme au sujet ; Jardiner Malin situe plutôt la coupe juste après la floraison — les deux sources ne s'accordent pas sur le repère exact, à trancher en relecture selon l'objectif (garder une forme précise, ou densifier après la floraison)."
+    },
+    {
+      "type": "bouturage",
+      "libelle": "Bouturer des tiges semi-lignifiées",
+      "quand": { "ancre": "date-civile", "date": "08-15" },
+      "urgence": "fenetre",
+      "conseil": "Prélever en fin d'été des tiges semi-lignifiées de 15 cm (Jardiner Malin), de préférence issues de la pousse de l'année précédente (Gerbeaud) ; enlever les feuilles du bas, tremper la base dans une hormone de bouturage et planter en godets (Jardiner Malin), à l'abri du gel et en lumière tout l'hiver, avant de rempoter au printemps suivant (Jardiner Malin, Gerbeaud convergents). Une fois établi, le laurier-sauce est rustique jusqu'à -10°C en sol drainé (Jardiner Malin) ; Gerbeaud élargit à -10/-15°C selon les sujets, mais déconseille les régions où l'hiver descend sous -15°C. Les jeunes plants, plus vulnérables, méritent une protection hivernale les premières années (Jardiner Malin)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Laurier sauce - laurus nobilis (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/laurier-sauce.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Laurier-sauce : culture, entretien et utilisation des feuilles (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/laurier-sauce.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

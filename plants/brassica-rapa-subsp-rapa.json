@@ -1,0 +1,45 @@
+{
+  "id": "brassica-rapa-subsp-rapa",
+  "nomsFr": ["Navet"],
+  "nomLatin": "Brassica rapa subsp. rapa",
+  "famille": "Brassicaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -8,
+  "heuresSoleilMin": 5,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud classe le navet, avec la betterave, le persil, le pois et la poirée, parmi les légumes semés à partir de 10°C au sol. Toujours selon Gerbeaud : semer à 1 cm de profondeur en lignes espacées de 25 cm, puis éclaircir à un plant tous les 10 cm dès que les plants ont trois feuilles vraies."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Arracher les racines",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 60 },
+      "urgence": "souple",
+      "conseil": "Gerbeaud situe la récolte des variétés de printemps et d'été à environ deux mois après le semis. Jardiner Malin donne une fourchette cohérente de 45 à 70 jours selon la variété, et compte environ 3 mois pour les variétés d'automne-hiver — à arracher avant les premières gelées (Gerbeaud). Le signal fiable reste la racine elle-même : ferme et lourde en main (Jardiner Malin)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Navet : semis, culture, récolte (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/navet-semis-culture-recolte.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Navet : semis, plantation, culture et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/navet.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

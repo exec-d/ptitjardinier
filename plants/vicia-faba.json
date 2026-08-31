@@ -1,0 +1,45 @@
+{
+  "id": "vicia-faba",
+  "nomsFr": ["Fève"],
+  "nomLatin": "Vicia faba",
+  "famille": "Fabaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud range la fève parmi les tout premiers semis de printemps possibles, avec la carotte, l'épinard, la laitue et le radis, dès que le thermomètre atteint 7 à 8°C. Jardiner Malin recommande des sillons de 10 à 15 cm de profondeur, une graine posée tous les 10 cm environ."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les gousses",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 90 },
+      "urgence": "souple",
+      "conseil": "Gerbeaud situe la récolte à environ 3 mois après le semis ; Jardiner Malin élargit à 3-4 mois selon la date de semis et le climat. Pour une consommation fraîche, cueillir les gousses vertes et bien gonflées ; pour des fèves sèches, attendre qu'elles noircissent."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Fève : semis et culture au potager, récolte et dégustation (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/fp_feves.php3",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Fève : semis, culture et récolte des fèves (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/feve.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

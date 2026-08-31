@@ -44,13 +44,18 @@ Le catalogue grandit par simple ajout de fiches OTA, sans nouvelle version de l'
 
 ## Le catalogue est incomplet — assumé, pas une excuse
 
-Ce dépôt contient à ce stade **23 fiches** : trois fiches d'épreuve écrites pour éprouver le
-vocabulaire des sept ancres avant de figer le format — pommier (`malus-domestica`, verger),
-rosier (`rosa`, ornement), ail (`allium-sativum`, potager) — voir `docs/verdict-ancres.md` —
-dix-neuf autres fiches potager qui forment l'essentiel de la première couverture réelle, et
-une fiche aromatique (basilic, `ocimum-basilicum`) qui s'y ajoute (3 + 19 + 1 = 23). Le verger
-et l'ornemental restent donc représentés uniquement par les fiches d'épreuve. **Toutes les 23**
-sont encore `"confiance": "a-relire"`, sans exception.
+Ce dépôt contient à ce stade **33 fiches** (le compte exact, par catégorie, se vérifie en
+comptant `plants/*.json` par script plutôt qu'à la main — un calcul explicite ici a déjà dû être
+corrigé deux fois) : trois fiches d'épreuve écrites pour éprouver le vocabulaire des sept ancres
+avant de figer le format — pommier (`malus-domestica`, verger), rosier (`rosa`, ornement), ail
+(`allium-sativum`, potager) — voir `docs/verdict-ancres.md` —, vingt-deux autres fiches potager
+(dont trois ajoutées pour éprouver le vocabulaire sur des annuelles/bisannuelles supplémentaires :
+fève, navet, chou), et huit fiches aromatiques : basilic (`ocimum-basilicum`) et persil
+(`petroselinum-crispum`), tous deux annuels, puis six vivaces ajoutées pour éprouver le
+vocabulaire des sept ancres sur des gestes qu'aucune fiche précédente n'avait exercés —
+bouturage, division de touffe, taille de formation — ciboulette, thym, romarin, menthe, sauge et
+laurier. Le verger et l'ornemental restent représentés uniquement par les fiches d'épreuve.
+**Toutes les 33** sont encore `"confiance": "a-relire"`, sans exception.
 
 C'est un engagement du projet, pas une limite provisoire qu'on cache : l'application **assume et
 affiche** que sa couverture est partielle plutôt que de laisser croire à un catalogue complet. Le

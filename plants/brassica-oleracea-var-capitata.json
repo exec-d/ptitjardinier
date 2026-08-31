@@ -1,0 +1,62 @@
+{
+  "id": "brassica-oleracea-var-capitata",
+  "nomsFr": ["Chou pommé", "Chou cabus", "Chou"],
+  "nomLatin": "Brassica oleracea var. capitata",
+  "famille": "Brassicaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -12,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer en pépinière",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud classe les choux cabu, avec les choux de Bruxelles et les choux-fleurs, parmi les légumes semés à partir de 10°C au sol — un seuil de sol en pleine terre, à ne pas confondre avec les 20°C que donne La Ferme de Sainte Marthe pour la germination du chou cabus en pépinière chauffée (levée en 5 à 8 jours) : deux repères différents, l'un pour le sol du potager, l'autre pour un semis au chaud. Selon la variété, Gerbeaud situe le semis en janvier-février pour les hâtifs, de mars à juin pour l'été-automne, en mai-juin pour l'hiver, à 1-2 cm de profondeur."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en place",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 42 },
+      "urgence": "fenetre",
+      "conseil": "Le repiquage définitif intervient quand les plants ont 4 à 6 feuilles vraies et mesurent 10 à 15 cm, généralement 5 à 7 semaines après le semis (Comptoir des Jardins) — 42 jours retenus ici comme milieu de cette fourchette. Gerbeaud espace de 30 à 50 cm en tous sens, Comptoir des Jardins de 50 à 60 cm (jusqu'à 70 cm pour les grosses variétés d'hiver) : deux fourchettes qui se recouvrent peu, à trancher selon la variété réellement plantée."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Couper les pommes",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 60 },
+      "urgence": "souple",
+      "conseil": "Jardiner Malin situe la récolte à environ deux mois après la plantation. Comptoir des Jardins donne des délais plus longs et variables selon la saison : 3 à 4 mois pour les variétés d'été, 5 à 6 mois pour l'automne-hiver — des écarts qui tiennent sans doute au fait que les sources ne visent pas les mêmes variétés ; 60 jours retenus ici correspondent à l'estimation la plus courte (Jardiner Malin), à ajuster nettement à la hausse pour une variété tardive. Le signal fiable reste la pomme elle-même : ferme et résistante à la pression (Gerbeaud)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Chou cabus : semis, plantation, culture (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/choux-cabus-semis-culture-recolte-varietes,2961.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Chou cabus : semis, plantation, entretien et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/chou-cabus.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Plantation des choux cabus : guide complet de culture (Comptoir des Jardins)",
+      "url": "https://www.comptoirdesjardins.fr/content/choux-pommes.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Successfully growing cabus cabbage (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-du-chou-cabus",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "salvia-rosmarinus",
+  "nomsFr": ["Romarin"],
+  "nomLatin": "Salvia rosmarinus",
+  "famille": "Lamiaceae",
+  "categorie": "aromatique",
+  "cycle": "vivace",
+  "rusticiteMinC": -10,
+  "heuresSoleilMin": 6,
+  "feuillage": "persistant",
+  "sol": { "phMin": 6.5, "phMax": 8.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille-floraison",
+      "libelle": "Tailler après la floraison de printemps",
+      "quand": { "ancre": "dormance", "phase": "fin", "decalageJours": 14 },
+      "urgence": "fenetre",
+      "conseil": "La taille principale suit la floraison de printemps, mars-avril (Region Espaces Verts) : raccourcir les tiges de l'année, en conservant toujours quelques feuilles vertes sur la portion taillée. Règle absolue : ne jamais couper dans le vieux bois ligneux et grisâtre, qui ne repart pas. L'ancre dormance (fin, +14 jours) est ici une approximation de « après floraison » — aucune ancre du vocabulaire ne date directement la fin d'une floraison ; se fier aux fleurs bleu pâle qui commencent à faner."
+    },
+    {
+      "type": "taille-automne",
+      "libelle": "Rafraîchir la silhouette en fin d'été",
+      "quand": { "ancre": "premiere-gelee", "quantile": 0.5, "decalageJours": -35 },
+      "urgence": "fenetre",
+      "conseil": "Un second passage plus léger, fin août ou en début d'automne, redonne une forme compacte sans rabattre franchement : 5 à 10 cm maximum aux extrémités des tiges (Region Espaces Verts). Il doit impérativement se terminer au moins un mois avant les premiers froids, pour laisser les plaies cicatriser."
+    },
+    {
+      "type": "bouturage",
+      "libelle": "Bouturer des tiges aoûtées",
+      "quand": { "ancre": "date-civile", "date": "08-15" },
+      "urgence": "fenetre",
+      "conseil": "Prélever des extrémités de tiges aoûtées d'environ 10 cm sur un pied non fleuri, retirer les feuilles des 4-5 cm inférieurs et enterrer de moitié dans un mélange très drainant (Jardipartage) ; reprise en un mois environ. Fenêtre donnée par la source, août-septembre : un repère calendaire, faute de seuil climatique publié pour la maturité du bois."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Quand et comment tailler le romarin : périodes et techniques (Region Espaces Verts)",
+      "url": "https://regionespacesverts.fr/quand-comment-tailler-romarin/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Bouture de romarin : quand et comment faire ? (Jardipartage)",
+      "url": "https://www.jardipartage.fr/bouture-romarin/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

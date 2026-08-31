@@ -41,6 +41,16 @@
     "confiance": "a-relire"
   },
   {
+    "id": "allium-schoenoprasum",
+    "nomsFr": [
+      "Ciboulette"
+    ],
+    "nomLatin": "Allium schoenoprasum",
+    "famille": "Amaryllidaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
     "id": "beta-vulgaris",
     "nomsFr": [
       "Betterave",
@@ -60,6 +70,28 @@
     ],
     "nomLatin": "Beta vulgaris subsp. cicla",
     "famille": "Amaranthaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "brassica-oleracea-var-capitata",
+    "nomsFr": [
+      "Chou pommé",
+      "Chou cabus",
+      "Chou"
+    ],
+    "nomLatin": "Brassica oleracea var. capitata",
+    "famille": "Brassicaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "brassica-rapa-subsp-rapa",
+    "nomsFr": [
+      "Navet"
+    ],
+    "nomLatin": "Brassica rapa subsp. rapa",
+    "famille": "Brassicaceae",
     "categorie": "potager",
     "confiance": "a-relire"
   },
@@ -126,6 +158,18 @@
     "confiance": "a-relire"
   },
   {
+    "id": "laurus-nobilis",
+    "nomsFr": [
+      "Laurier sauce",
+      "Laurier noble",
+      "Laurier"
+    ],
+    "nomLatin": "Laurus nobilis",
+    "famille": "Lauraceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
     "id": "malus-domestica",
     "nomsFr": [
       "Pommier"
@@ -136,12 +180,33 @@
     "confiance": "a-relire"
   },
   {
+    "id": "mentha-spicata",
+    "nomsFr": [
+      "Menthe verte",
+      "Menthe"
+    ],
+    "nomLatin": "Mentha spicata",
+    "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
     "id": "ocimum-basilicum",
     "nomsFr": [
       "Basilic"
     ],
     "nomLatin": "Ocimum basilicum",
     "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "petroselinum-crispum",
+    "nomsFr": [
+      "Persil"
+    ],
+    "nomLatin": "Petroselinum crispum",
+    "famille": "Apiaceae",
     "categorie": "aromatique",
     "confiance": "a-relire"
   },
@@ -188,6 +253,27 @@
     "confiance": "a-relire"
   },
   {
+    "id": "salvia-officinalis",
+    "nomsFr": [
+      "Sauge officinale",
+      "Sauge"
+    ],
+    "nomLatin": "Salvia officinalis",
+    "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "salvia-rosmarinus",
+    "nomsFr": [
+      "Romarin"
+    ],
+    "nomLatin": "Salvia rosmarinus",
+    "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
     "id": "solanum-lycopersicum",
     "nomsFr": [
       "Tomate"
@@ -229,6 +315,17 @@
     "confiance": "a-relire"
   },
   {
+    "id": "thymus-vulgaris",
+    "nomsFr": [
+      "Thym",
+      "Thym commun"
+    ],
+    "nomLatin": "Thymus vulgaris",
+    "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
     "id": "valerianella-locusta",
     "nomsFr": [
       "Mâche",
@@ -236,6 +333,16 @@
     ],
     "nomLatin": "Valerianella locusta",
     "famille": "Valerianaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "vicia-faba",
+    "nomsFr": [
+      "Fève"
+    ],
+    "nomLatin": "Vicia faba",
+    "famille": "Fabaceae",
     "categorie": "potager",
     "confiance": "a-relire"
   }
