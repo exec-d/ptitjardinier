@@ -2,6 +2,13 @@
 # lui-même changent. Le pari du projet (sept ancres suffisent) ne vaut que
 # si personne ne peut faire passer une fiche fautive ou un vocabulaire élargi
 # sans que ce garde-fou ne le voie.
+#
+# Vérifie aussi que plants/index.json et manifest.json — l'index léger et le
+# manifeste que l'application télécharge sans les fiches complètes — sont
+# bien ce que produirait tools/construire_index.py à partir des fiches
+# commitées. Un index périmé est pire qu'absent : il fait disparaître
+# silencieusement des fiches de la recherche, sans qu'aucune erreur ne le
+# signale ailleurs.
 name: Valider les fiches
 
 on:
@@ -31,3 +38,13 @@ jobs:
 
       - name: Valider les fiches
         run: python tools/valider.py
+
+      - name: Régénérer l'index et le manifeste
+        run: python tools/construire_index.py
+
+      - name: Vérifier que l'index et le manifeste commités sont à jour
+        run: |
+          if ! git diff --exit-code -- plants/index.json manifest.json; then
+            echo "::error::plants/index.json ou manifest.json commité ne correspond plus aux fiches. Relancer 'python tools/construire_index.py' localement et commiter le résultat."
+            exit 1
+          fi

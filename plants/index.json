@@ -1,0 +1,34 @@
+[
+  {
+    "id": "allium-sativum",
+    "nomsFr": [
+      "Ail",
+      "Ail commun"
+    ],
+    "nomLatin": "Allium sativum",
+    "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "malus-domestica",
+    "nomsFr": [
+      "Pommier"
+    ],
+    "nomLatin": "Malus domestica",
+    "famille": "Rosaceae",
+    "categorie": "verger",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "rosa",
+    "nomsFr": [
+      "Rosier",
+      "Rosier de jardin"
+    ],
+    "nomLatin": "Rosa",
+    "famille": "Rosaceae",
+    "categorie": "ornement",
+    "confiance": "a-relire"
+  }
+]
