@@ -1,0 +1,45 @@
+{
+  "id": "solanum-lycopersicum",
+  "nomsFr": ["Tomate"],
+  "nomLatin": "Solanum lycopersicum",
+  "famille": "Solanaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 6.8, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -49 },
+      "urgence": "fenetre",
+      "conseil": "Sous abri, terreau fin, 3 à 5 mm de profondeur, 20 à 22°C constants pour lever en 5 à 7 jours. Repiquer en godet individuel dès les deux premières vraies feuilles."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 49 },
+      "urgence": "fenetre",
+      "conseil": "Le compte de jours depuis le semis ne garantit pas à lui seul l'absence de gel tardif : les Saints de Glace (11-13 mai) sont un repère statistique, pas une date cible, et une nuit à 2°C peut encore détruire un jeune plant après cette date. Vérifier aussi que le sol atteint au moins 12°C avant de planter — en dessous, le plant ne meurt pas forcément mais reste bloqué en croissance pendant des semaines."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Réussir ses semis de tomates en intérieur : les étapes clés du succès (aujardin.info)",
+      "url": "https://www.aujardin.info/fiches/reussir-semis-tomates-interieur-etapes-cles-succes.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Repiquer Tomate : Quand, comment et temps entre repiquage et semis de tomates (Prêt à jardiner)",
+      "url": "https://www.pretajardiner.com/blog/conseils-jardinage/repiquer-tomate-quand-comment-temps-repiquage",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand planter les tomates : dates par région, sol à 12°C (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/tomate/plantation-date",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

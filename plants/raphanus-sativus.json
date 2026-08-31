@@ -1,0 +1,40 @@
+{
+  "id": "raphanus-sativus",
+  "nomsFr": ["Radis"],
+  "nomLatin": "Raphanus sativus",
+  "famille": "Brassicaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -3,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
+      "urgence": "fenetre",
+      "conseil": "Un des tout premiers semis de printemps possibles : Gerbeaud le classe, avec la carotte et la laitue, parmi les légumes qui germent dès 7-8°C au sol. La levée est nettement plus rapide (3 à 4 jours) à des températures plus hautes, 15 à 18°C. Le radis est par ailleurs plutôt résistant au froid une fois levé (La Ferme de Sainte Marthe)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les racines",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 28 },
+      "urgence": "fenetre",
+      "conseil": "4 à 6 semaines selon la variété (La Ferme de Sainte Marthe). Ne pas laisser en terre au-delà : le radis est le légume le plus rapide du potager, et une racine qui vieillit devient creuse et piquante plutôt que de simplement grossir."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Réussir la culture des radis (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-des-radis",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

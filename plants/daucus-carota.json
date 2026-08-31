@@ -1,0 +1,45 @@
+{
+  "id": "daucus-carota",
+  "nomsFr": ["Carotte"],
+  "nomLatin": "Daucus carota",
+  "famille": "Apiaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 6.8, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
+      "urgence": "fenetre",
+      "conseil": "En dessous de 7-8°C au sol, les graines restent en dormance ou pourrissent (Gerbeaud). La levée reste de toute façon lente juste au-dessus du seuil (10 à 20 jours) et s'accélère à mesure que le sol se réchauffe, avec un optimum autour de 16°C (Vilmorin)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les racines",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 80 },
+      "urgence": "souple",
+      "conseil": "Le délai varie fortement selon la variété : moins de 3 mois pour les carottes hâtives, 3 à 4 mois pour les variétés d'été, jusqu'à 6 mois pour les variétés de garde (Jardiner Malin). 80 jours est une valeur médiane pour une variété hâtive ou d'été, à ajuster selon le sachet de semences réellement utilisé."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Semer des carottes : tout savoir pour réussir ses semis ! (Vilmorin)",
+      "url": "https://vilmorin-jardin.fr/potager-et-aromates/semer-des-carottes-tout-savoir-pour-reussir-ses-semis/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Carotte : Variétés, Conseils de culture, Récolte et Utilisation (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/carotte.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

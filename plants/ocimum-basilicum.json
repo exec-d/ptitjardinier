@@ -1,0 +1,52 @@
+{
+  "id": "ocimum-basilicum",
+  "nomsFr": ["Basilic"],
+  "nomLatin": "Ocimum basilicum",
+  "famille": "Lamiaceae",
+  "categorie": "aromatique",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -28 },
+      "urgence": "fenetre",
+      "conseil": "À partir de 15°C minimum pour germer, comme la tomate et la courgette (Gerbeaud) : compter environ 4 semaines avant la dernière gelée (La Tribune)."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.8, "decalageJours": 10 },
+      "urgence": "fenetre",
+      "conseil": "Le basilic est plus sensible au froid que la tomate ou la courgette : toute croissance s'arrête déjà sous 10°C, et le gel provoque des dégâts irréversibles. Repiquer une à deux semaines après la dernière gelée, quand les nuits se maintiennent durablement au-dessus de 12°C (La Tribune) et que le sol comme l'air avoisinent 18°C (La Ferme de Sainte Marthe). Acclimater progressivement sur 7 à 10 jours avant la mise en pleine terre."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter au fur et à mesure",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 22 },
+      "urgence": "souple",
+      "conseil": "La Ferme de Sainte Marthe situe la première récolte à environ 60 jours après le semis ; compte tenu du délai entre semis et repiquage retenu par cette fiche, cela correspond à environ 3 semaines après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement. Pincer les tiges dès 20 cm et supprimer les fleurs dès leur apparition pour prolonger la production tout l'été plutôt que récolter en une fois."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Réussir la culture du basilic (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-du-basilic",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Tout pour réussir son basilic (La Tribune)",
+      "url": "https://www.latribune.ca/2022/03/01/tout-pour-reussir-son-basilic-3a76b8b12eb47e31445c875e9db76984/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

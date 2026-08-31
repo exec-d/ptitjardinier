@@ -1,0 +1,52 @@
+{
+  "id": "solanum-tuberosum",
+  "nomsFr": ["Pomme de terre", "Patate"],
+  "nomLatin": "Solanum tuberosum",
+  "famille": "Solanaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -2,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 5.5, "phMax": 6.5, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "plantation",
+      "libelle": "Planter les plants germés",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "La température du sol compte plus que le calendrier : planter une fois le sol réchauffé à 10°C minimum. Le tubercule enterré ne craint rien à ce stade ; c'est la pousse qui émergera ensuite qui est vulnérable — une nuit à -2°C suffit à la détruire (Le Colporteur) — d'où l'intérêt du buttage pour la protéger une fois sortie de terre."
+    },
+    {
+      "type": "buttage",
+      "libelle": "Butter les plants",
+      "quand": { "ancre": "geste-precedent", "geste": "plantation", "jours": 35 },
+      "urgence": "souple",
+      "conseil": "Butter quand les plants atteignent 10 à 15 cm de haut (Jardiner Malin) : c'est la hauteur du feuillage qui déclenche ce geste, pas un délai fixe depuis la plantation — les 35 jours indiqués ici sont un ordre de grandeur approximatif, non tiré directement d'une source, à corriger à l'œil selon la vigueur réelle de la levée."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les tubercules",
+      "quand": { "ancre": "geste-precedent", "geste": "plantation", "jours": 80 },
+      "urgence": "souple",
+      "conseil": "70 à 90 jours après la plantation pour les variétés précoces, 90 à 150 jours pour les variétés de saison et de garde (Le Colporteur, Jardin Potager Bio). Le nombre de jours n'est qu'une estimation : le signal fiable est le jaunissement et le couchage du feuillage (Jardiner Malin) — ne pas attendre le dessèchement complet, qui indique qu'on a laissé passer le bon moment."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Quand planter les pommes de terre pour une belle récolte (Le Colporteur)",
+      "url": "https://www.le-colporteur.fr/jardin/quand-planter-les-pommes-de-terre/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand récolter les pommes de terre (Jardin Potager Bio)",
+      "url": "https://jardin-potager-bio.fr/quand-recolter-les-pommes-de-terre",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Pomme de terre : plantation, buttage et récolte (guide complet) (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/pomme-de-terre.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

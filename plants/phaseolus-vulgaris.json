@@ -1,0 +1,40 @@
+{
+  "id": "phaseolus-vulgaris",
+  "nomsFr": ["Haricot vert"],
+  "nomLatin": "Phaseolus vulgaris",
+  "famille": "Fabaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 12 },
+      "urgence": "fenetre",
+      "conseil": "En dessous de 12°C au sol, la graine pourrit plutôt que de germer ; la germination devient vraiment sûre entre 12 et 16°C, optimale entre 15 et 18°C (Comptoir des Jardins). Le haricot ne supporte aucun gel — une nuit à 0°C suffit à compromettre le semis : le seuil de sol suffit rarement seul à écarter tout risque, vérifier aussi qu'aucune gelée n'est annoncée dans les jours qui suivent le semis."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les gousses",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 65 },
+      "urgence": "souple",
+      "conseil": "60 à 70 jours après le semis pour les variétés naines, 75 à 90 jours pour les grimpantes (Comptoir des Jardins). Une fois commencée, la récolte se poursuit tous les 2 à 3 jours pendant 3 à 4 semaines pour les naines et jusqu'à 2 mois pour les grimpantes : cueillir régulièrement relance la production plutôt que de l'épuiser."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Semis des haricots verts : guide complet et conseils pratiques (Comptoir des Jardins)",
+      "url": "https://www.comptoirdesjardins.fr/content/haricots.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

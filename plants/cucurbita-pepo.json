@@ -1,0 +1,52 @@
+{
+  "id": "cucurbita-pepo",
+  "nomsFr": ["Courgette"],
+  "nomLatin": "Cucurbita pepo",
+  "famille": "Cucurbitaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -21 },
+      "urgence": "fenetre",
+      "conseil": "La courgette fait partie des graines qui exigent au moins 15°C pour germer (Gerbeaud), en pratique fin mars à fin avril sous abri selon le climat. Repiquer 2 à 3 semaines plus tard, aux premières vraies feuilles."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 21 },
+      "urgence": "fenetre",
+      "conseil": "Ne planter qu'une fois tout risque de gelée écarté, généralement à partir de la mi-mai dans la moitié nord de la France, après les Saints de Glace."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les fruits",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 60 },
+      "urgence": "souple",
+      "conseil": "Compter environ 2 mois entre le semis et la première récolte. Une fois lancée, la récolte est continue jusqu'aux premières gelées (octobre au nord, novembre au sud) : cueillir tous les 2 à 3 jours, encore petites (15 à 20 cm), relance la production plutôt que de l'épuiser — ce n'est pas un geste ponctuel mais une routine à reprendre pendant toute la belle saison."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Comment faire ses semis de courgettes ? (Vilmorin)",
+      "url": "https://vilmorin-jardin.fr/potager-et-aromates/quand-et-comment-reussir-ses-semis-de-courgettes/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand et comment récolter les courgettes ? (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/quand-comment-recolter-courgette.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

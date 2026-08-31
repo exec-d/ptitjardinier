@@ -1,5 +1,25 @@
 [
   {
+    "id": "allium-cepa",
+    "nomsFr": [
+      "Oignon"
+    ],
+    "nomLatin": "Allium cepa",
+    "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "allium-porrum",
+    "nomsFr": [
+      "Poireau"
+    ],
+    "nomLatin": "Allium porrum",
+    "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
     "id": "allium-sativum",
     "nomsFr": [
       "Ail",
@@ -7,6 +27,36 @@
     ],
     "nomLatin": "Allium sativum",
     "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "cucurbita-pepo",
+    "nomsFr": [
+      "Courgette"
+    ],
+    "nomLatin": "Cucurbita pepo",
+    "famille": "Cucurbitaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "daucus-carota",
+    "nomsFr": [
+      "Carotte"
+    ],
+    "nomLatin": "Daucus carota",
+    "famille": "Apiaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "lactuca-sativa",
+    "nomsFr": [
+      "Laitue"
+    ],
+    "nomLatin": "Lactuca sativa",
+    "famille": "Asteraceae",
     "categorie": "potager",
     "confiance": "a-relire"
   },
@@ -21,6 +71,36 @@
     "confiance": "a-relire"
   },
   {
+    "id": "ocimum-basilicum",
+    "nomsFr": [
+      "Basilic"
+    ],
+    "nomLatin": "Ocimum basilicum",
+    "famille": "Lamiaceae",
+    "categorie": "aromatique",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "phaseolus-vulgaris",
+    "nomsFr": [
+      "Haricot vert"
+    ],
+    "nomLatin": "Phaseolus vulgaris",
+    "famille": "Fabaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "raphanus-sativus",
+    "nomsFr": [
+      "Radis"
+    ],
+    "nomLatin": "Raphanus sativus",
+    "famille": "Brassicaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
     "id": "rosa",
     "nomsFr": [
       "Rosier",
@@ -29,6 +109,27 @@
     "nomLatin": "Rosa",
     "famille": "Rosaceae",
     "categorie": "ornement",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "solanum-lycopersicum",
+    "nomsFr": [
+      "Tomate"
+    ],
+    "nomLatin": "Solanum lycopersicum",
+    "famille": "Solanaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "solanum-tuberosum",
+    "nomsFr": [
+      "Pomme de terre",
+      "Patate"
+    ],
+    "nomLatin": "Solanum tuberosum",
+    "famille": "Solanaceae",
+    "categorie": "potager",
     "confiance": "a-relire"
   }
 ]

@@ -1,0 +1,40 @@
+{
+  "id": "lactuca-sativa",
+  "nomsFr": ["Laitue"],
+  "nomLatin": "Lactuca sativa",
+  "famille": "Asteraceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 4,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
+      "urgence": "fenetre",
+      "conseil": "Comme la carotte et le radis, la laitue germe dès 7-8°C au sol (Gerbeaud). Mais elle a aussi un plafond que ce seuil bas ne capture pas : au-delà de 20°C la germination ralentit, et une thermodormance peut la bloquer complètement au-delà de 25°C (Jardiner Malin) — un sol d'été trop chaud empêche la levée aussi sûrement qu'un sol de sortie d'hiver trop froid. Semer à l'ombre et tenir le sol frais en période chaude."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter la pomme",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 42 },
+      "urgence": "souple",
+      "conseil": "Environ 6 semaines du semis à la récolte, un peu moins pour les variétés à couper (Jardiner Malin). Une forte chaleur ou des jours longs en cours de culture peuvent déclencher une montée à graines prématurée avant ce délai : une pomme qui commence à s'allonger au centre doit être récoltée sans attendre l'échéance théorique."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Laitue : les variétés, conseils de culture et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/laitue.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

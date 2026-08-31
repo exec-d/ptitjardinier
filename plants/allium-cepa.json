@@ -1,0 +1,57 @@
+{
+  "id": "allium-cepa",
+  "nomsFr": ["Oignon"],
+  "nomLatin": "Allium cepa",
+  "famille": "Amaryllidaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -10,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "plantation",
+      "libelle": "Planter les bulbilles",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "De février à avril selon le climat et la couleur de la variété (jaune dès février, rouge à partir de mars dans le sud), une fois le sol réchauffé à 10°C minimum et ressuyé — décaler de 2 à 3 semaines en climat plus froid que le sud de la France (Le Jardin de Lézignan)."
+    },
+    {
+      "type": "reduction-azote",
+      "libelle": "Réduire l'azote à la bulbaison",
+      "quand": { "ancre": "photoperiode", "seuil": 14 },
+      "urgence": "souple",
+      "conseil": "Passé un certain seuil de durée du jour, l'oignon bascule de la croissance foliaire vers le grossissement du bulbe. Ce seuil dépend du type de variété : environ 10-12h pour les variétés jour court, 12-14h pour jour intermédiaire, 14-16h pour jour long (Johnny's Selected Seeds) ; le seuil de 14h retenu ici correspond à une variété jour long, à ajuster selon la variété effectivement plantée — information que cette fiche ne connaît pas. Réduire les apports azotés sans les arrêter complètement : l'azote reste nécessaire en quantité réduite pour la formation du bulbe, mais un excès prolonge la croissance foliaire et nuit à la qualité de conservation (Yara France)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Arracher les bulbes",
+      "quand": { "ancre": "geste-precedent", "geste": "plantation", "jours": 105 },
+      "urgence": "souple",
+      "conseil": "Compter 3 à 4 mois entre la plantation en bulbilles et la récolte, contre 6 à 8 mois depuis un semis (Le Jardin de Lézignan). Le signal fiable reste visuel, pas le calendrier : attendre que les deux tiers du feuillage soient couchés et secs avant d'arracher (Gigi de Suresnes) — récolter alors que les tiges sont encore dressées expose le collet ouvert à la pourriture en conservation."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Quand planter les oignons : calendrier par variété et méthode (Le Jardin de Lézignan)",
+      "url": "https://plants-oignon-lezignan.fr/jardin/quand-planter-les-oignons/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Map & Key Features of Long-Day, Intermediate-Day & Short-Day Onions (Johnny's Selected Seeds)",
+      "url": "https://www.johnnyseeds.com/growers-library/vegetables/onions/onion-bulbing-daylength-latitude-map.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Rôle de l'azote dans la production d'oignons (Yara France)",
+      "url": "https://www.yara.fr/fertilisation/solutions-pour-cultures/oignon-ail/role-azote-production-oignons/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand récolter les oignons : signes et erreurs à éviter (Gigi de Suresnes)",
+      "url": "https://gigidesuresnes.fr/quand-recolter-oignons-signes-maturite-sechage/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

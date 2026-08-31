@@ -1,0 +1,47 @@
+{
+  "id": "allium-porrum",
+  "nomsFr": ["Poireau"],
+  "nomLatin": "Allium porrum",
+  "famille": "Amaryllidaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 5,
+  "sol": { "phMin": 6.5, "phMax": 7.5, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-pepiniere",
+      "libelle": "Semer en pépinière",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Germination en 1 à 3 semaines entre 10 et 23°C (Gerbeaud)."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer au stade crayon",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-pepiniere", "jours": 63 },
+      "urgence": "fenetre",
+      "conseil": "Repiquer quand la tige atteint le diamètre d'un crayon (5 à 7 mm), stade en général atteint 8 à 10 semaines après le semis — se fier au diamètre de la tige plutôt qu'au calendrier si la levée a été plus lente ou plus rapide que prévu. Habiller les plants avant la mise en place : racines coupées à 1 cm, feuillage réduit d'un tiers (Gerbeaud)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter au fur et à mesure",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 120 },
+      "urgence": "souple",
+      "conseil": "La récolte démarre en octobre-novembre et se poursuit tout l'hiver jusqu'au printemps, au fil des besoins (Gerbeaud) : contrairement aux gestes précédents, ce n'est pas une fenêtre ponctuelle à viser mais une longue période de disponibilité en terre, les variétés d'hiver résistant au gel sur pied."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Repiquage des poireaux d'hiver : quand, comment ? (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/repiquage-poireau-hiver,1418.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}
