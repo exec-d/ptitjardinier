@@ -1,0 +1,45 @@
+{
+  "id": "pisum-sativum",
+  "nomsFr": ["Petit pois", "Pois"],
+  "nomLatin": "Pisum sativum",
+  "famille": "Fabaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud classe le pois parmi les légumes semés à partir de 10°C au sol. PotagerFruitier situe la plage de germination bien plus large, de 4 à 20°C avec un optimum à 15-20°C (levée en 7 à 14 jours) : le seuil de 10°C retenu ici comme déclencheur est donc prudent, pas le minimum absolu. Semer à 3-4 cm de profondeur, 5 à 8 cm sur le rang, 40 à 60 cm entre rangs (PotagerFruitier). Au-delà de 25°C, les fleurs avortent et la production s'arrête (PotagerFruitier) : un semis trop tardif expose à ce risque en plein été."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les gousses",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 70 },
+      "urgence": "souple",
+      "conseil": "Les deux sources consultées divergent nettement sur ce délai : PotagerFruitier chiffre le cycle à 55-70 jours selon variété, quand Jardiner Malin l'étend à 3-4 mois (90 à 120 jours) — un écart que ces fiches ne permettent pas de trancher, peut-être parce qu'elles ne visent pas les mêmes variétés (naines précoces contre grimpantes tardives). 70 jours est retenu ici, l'extrémité haute de la fourchette de PotagerFruitier, à vérifier en relecture. Une fois la récolte commencée, cueillir les gousses régulièrement et sans attendre qu'elles gonflent, pour prolonger la production plutôt que de laisser les grains durcir."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Semis petits pois : 3 méthodes, dates et variétés testées (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/petits-pois/semis",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Petit Pois : Culture, Entretien et Récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/petit-pois-culture.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

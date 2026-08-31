@@ -1,0 +1,52 @@
+{
+  "id": "cucurbita-maxima",
+  "nomsFr": ["Courge", "Potiron"],
+  "nomLatin": "Cucurbita maxima",
+  "famille": "Cucurbitaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -30 },
+      "urgence": "fenetre",
+      "conseil": "Comme la courgette, une graine qui exige de la chaleur pour germer : Gerbeaud la classe parmi les légumes semés à partir de 15°C. Semer en godet à l'abri en mars-avril (Jardinier Amateur), pour un repiquage environ un mois plus tard."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 30 },
+      "urgence": "fenetre",
+      "conseil": "Ne planter qu'une fois tout risque de gelée écarté, comme pour la courgette et les autres cucurbitacées frileuses de ce catalogue : Jardinier Amateur situe le semis en plein terre, alternative au repiquage, à partir de mai — un repère de saison cohérent avec une mise en terre après les dernières gelées, même si cette page ne prononce pas le mot « gelée »."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les fruits",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 95 },
+      "urgence": "souple",
+      "conseil": "Le délai varie fortement selon la variété : Gerbeaud cite 70 jours de croissance pour un Spaghetti végétal, 100 jours pour une Citrouille de Touraine, 125 jours pour un potiron Rouge Vif d'Étampes. En retenant cette dernière variété comme référence et le mois écoulé entre semis et repiquage, cela correspond à environ 95 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement, à ajuster selon la variété réellement plantée. Récolter avant tout risque de gel, pédoncule desséché et peau résistant à l'ongle, puis conserver 3 à 6 mois entre 15 et 20°C (Gerbeaud)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Récolte et conservation des courges (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/courges-recolte-conservation.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Potiron - Cucurbita maxima - Courge (Jardinier Amateur)",
+      "url": "https://www.jardinier-amateur.fr/fiches-jardinage/potiron-cucurbita-maxima-courge.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

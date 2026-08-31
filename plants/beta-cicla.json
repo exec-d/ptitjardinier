@@ -1,0 +1,40 @@
+{
+  "id": "beta-cicla",
+  "nomsFr": ["Blette", "Poirée", "Bette à cardes"],
+  "nomLatin": "Beta cicla",
+  "famille": "Amaranthaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 5,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Même famille et même seuil que la betterave : Gerbeaud classe les poirées parmi les légumes qui se sèment à partir de 10°C au sol. Semer en ligne à 1-2 cm de profondeur, 4 à 5 graines tous les 40 cm, de mars à juin (Jardiner Malin) ; repiquer les semis de pépinière dès 4 ou 5 feuilles."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter au fur et à mesure",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 60 },
+      "urgence": "souple",
+      "conseil": "La récolte débute environ 2 mois après le semis (Jardiner Malin). Contrairement à la betterave, ce n'est pas un arrachage ponctuel : couper feuille par feuille ou côte par côte au fur et à mesure des besoins, la plante continuant de produire de juillet jusqu'aux premières gelées (Jardiner Malin)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Poirée : conseils de culture, du semis à la récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/poiree.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

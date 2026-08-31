@@ -1,0 +1,52 @@
+{
+  "id": "solanum-melongena",
+  "nomsFr": ["Aubergine"],
+  "nomLatin": "Solanum melongena",
+  "famille": "Solanaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 6.8, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri chauffé",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -75 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud la qualifie de « reine des frileuses » : il lui faut un minimum de 24°C pour germer. Comptoir des Jardins situe l'idéal un peu plus large, entre 22 et 28°C, quand Jardiner Malin retient 18 à 25°C — deux fourchettes voisines mais pas identiques. Comptoir des Jardins compte 2 à 3 mois entre semis et mise au jardin ; 75 jours retenus ici en sont la valeur médiane, la mise en terre elle-même n'intervenant qu'après les dernières gelées."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 75 },
+      "urgence": "fenetre",
+      "conseil": "Les deux sources consultées ne s'accordent pas sur le seuil de sol : 15°C minimum pour Comptoir des Jardins, 12°C pour Jardiner Malin — à trancher en relecture, en retenant que l'aubergine ne pousse de toute façon pas vraiment en dessous de 18°C (Jardiner Malin). Planter après les dernières gelées : mi-mai à début juin (Comptoir des Jardins), mi-mai à juin (Jardiner Malin) — plus tardivement que la tomate."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les fruits",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 75 },
+      "urgence": "souple",
+      "conseil": "Jardiner Malin situe la récolte à environ 5 mois après le semis, de juillet à octobre ; compte tenu du délai retenu ici entre semis et repiquage, cela correspond à environ 75 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement. La fructification s'échelonne ensuite sur 2 à 3 mois (Comptoir des Jardins) : récolter au fur et à mesure plutôt qu'en une fois."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Plantation des aubergines : guide complet de culture (Comptoir des Jardins)",
+      "url": "https://www.comptoirdesjardins.fr/content/aubergines.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Aubergine : bien les cultiver au potager (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/aubergine.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

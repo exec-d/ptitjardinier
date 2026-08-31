@@ -1,0 +1,50 @@
+{
+  "id": "allium-ascalonicum",
+  "nomsFr": ["Échalote"],
+  "nomLatin": "Allium ascalonicum",
+  "famille": "Amaryllidaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 5,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "plantation",
+      "libelle": "Planter les caïeux",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
+      "urgence": "fenetre",
+      "conseil": "Enfoncer les caïeux pointe vers le haut, la pointe affleurant ou juste sous la surface (2-3 cm de profondeur maximum), une fois le sol réchauffé au-dessus de 7-8°C (Jardin365) — le même seuil bas que la carotte ou le radis, bien en dessous de celui de l'oignon. Espacer de 10 à 15 cm sur le rang, 25 à 30 cm entre rangs (Jardin365)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Arracher les bulbes",
+      "quand": { "ancre": "geste-precedent", "geste": "plantation", "jours": 135 },
+      "urgence": "souple",
+      "conseil": "Compter 4 à 5 mois entre la plantation et la récolte selon la variété et le climat (Jardin365). Le signal fiable reste le feuillage : Jardin365 attend que les deux tiers soient couchés et jaunis, la Ferme de Sainte Marthe se contente de la moitié des tiges fanées — deux seuils différents pour le même signal, à trancher en relecture selon la variété effectivement plantée. Laisser ensuite ressuyer au sol 2 à 3 jours au soleil avant de rentrer (aujardin.info)."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Échalote : guide complet pour la planter, l'entretenir et la récolter (Jardin365)",
+      "url": "https://jardin365.com/echalote-guide-complet/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Cultiver l'échalote : guide complet de plantation et récolte (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-des-echalotes",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Echalote, Allium ascalonicum (aujardin.info)",
+      "url": "https://www.aujardin.info/plantes/echalote.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Echalote : plantation, culture et récolte (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/echalote-plantation-culture-recolte.php",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "capsicum-annuum",
+  "nomsFr": ["Poivron", "Piment"],
+  "nomLatin": "Capsicum annuum",
+  "famille": "Solanaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 6.8, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri chauffé",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -77 },
+      "urgence": "fenetre",
+      "conseil": "Le poivron germe lentement et exige de la chaleur : 22°C minimum, 25-28°C dans l'idéal, en dessous de 18°C la levée devient très lente (PotagerFruitier). C'est le semis le plus précoce du potager : PotagerFruitier chiffre l'étape intérieure complète, du semis à la mise en pleine terre, à environ 10 à 12 semaines — 11 semaines (77 jours) retenues ici comme valeur médiane, la mise en terre elle-même intervenant après les dernières gelées."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 77 },
+      "urgence": "fenetre",
+      "conseil": "Plus tardif que la tomate : PotagerFruitier attend que le sol atteigne 15°C minimum avant de planter, un seuil plus haut que celui déjà retenu pour la tomate dans ce catalogue. Ne pas se fier au seul décompte de jours si un printemps froid retarde le réchauffement du sol."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les fruits",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 90 },
+      "urgence": "souple",
+      "conseil": "PotagerFruitier chiffre le cycle de production à 80 à 100 jours pour les variétés standard, ce qui situe la récolte en août-octobre (PotagerFruitier). Une fois lancée, la récolte est continue jusqu'aux premières gelées, fruit après fruit, sans attendre que tous mûrissent en même temps."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Semis de poivrons : réussir en intérieur dès fin janvier (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/poivron/semis",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Poivron au potager : semis, plantation et récolte en détail (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/poivron/culture",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

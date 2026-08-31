@@ -1,0 +1,62 @@
+{
+  "id": "cucumis-sativus",
+  "nomsFr": ["Concombre"],
+  "nomLatin": "Cucumis sativus",
+  "famille": "Cucurbitaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": 0,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-abri",
+      "libelle": "Semer sous abri",
+      "quand": { "ancre": "derniere-gelee", "quantile": 0.5, "decalageJours": -21 },
+      "urgence": "fenetre",
+      "conseil": "Comme la courgette, le concombre exige de la chaleur pour germer : Gerbeaud le classe parmi les légumes semés à partir de 15°C, la Ferme de Sainte Marthe donne 25°C pour sa propre fiche. Semer en godet individuel, 2 à 3 graines par emplacement (Les Jardins de Koantiz), environ 3 à 4 semaines avant la transplantation prévue (Les Jardins de Koantiz)."
+    },
+    {
+      "type": "repiquage",
+      "libelle": "Repiquer en pleine terre",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-abri", "jours": 21 },
+      "urgence": "fenetre",
+      "conseil": "Le concombre ne supporte pas les températures inférieures à 10°C (Terre Vivante) : ne planter qu'une fois les nuits durablement au-dessus de ce seuil et tout risque de gelée écarté, généralement à partir de mi-mai (Comptoir des Jardins)."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les fruits",
+      "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 84 },
+      "urgence": "souple",
+      "conseil": "Terre Vivante situe la récolte à 3 à 4 mois après le semis ; compte tenu des trois à quatre semaines retenues ici entre semis et repiquage, cela correspond à environ 84 jours après la mise en terre — un calcul dérivé de la source, qu'elle ne donne pas directement. Récolter régulièrement plutôt que laisser grossir : un fruit oublié épaissit et ralentit la formation des suivants."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Réussir la culture du concombre et du cornichon (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-du-concombre-et-du-cornichon",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand planter des concombres sans rater la reprise ? Gelées, serre et pleine terre (Les Jardins de Koantiz)",
+      "url": "https://www.les-jardins-de-koantiz.fr/quand-planter-concombres-gelees-serre-pleine-terre/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Concombre : culture, semis, entretien, récolte (Terre Vivante)",
+      "url": "https://www.terrevivante.org/contenu/concombre-culture-semis-entretien-recolte/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Plantation des concombres : guide complet et conseils (Comptoir des Jardins)",
+      "url": "https://www.comptoirdesjardins.fr/content/concombres.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

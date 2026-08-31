@@ -1,0 +1,40 @@
+{
+  "id": "spinacia-oleracea",
+  "nomsFr": ["Épinard"],
+  "nomLatin": "Spinacia oleracea",
+  "famille": "Amaranthaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -10,
+  "heuresSoleilMin": 3,
+  "sol": { "phMin": 6.5, "phMax": 7.5, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en fin d'été pour l'arrière-saison",
+      "quand": { "ancre": "premiere-gelee", "quantile": 0.5, "decalageJours": -49 },
+      "urgence": "fenetre",
+      "conseil": "Jardiner Malin situe ce semis d'automne en août-septembre, pour une récolte d'automne, et jusqu'en octobre pour une récolte d'hiver — un créneau que cette fiche traduit en un décalage d'environ 7 semaines avant la première gelée, estimation propre à cette fiche et non un délai donné tel quel par la source. Semer clair, en sillons de 2 à 3 cm de profondeur (Jardiner Malin) : c'est l'inverse du semis de printemps, qui risque la montée à graines dès que la durée du jour dépasse 14 à 16 heures et que le sol reste durablement au-dessus de 20°C (PotagerFruitier) — un risque que l'arrière-saison, jours courts et sol qui refroidit, écarte de lui-même."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter au fur et à mesure",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 45 },
+      "urgence": "souple",
+      "conseil": "Compter un mois et demi entre le semis et les premières feuilles récoltables (Jardiner Malin). Récolter feuille par feuille plutôt que la plante entière : les variétés d'automne-hiver poursuivent leur production tant que le froid ne bloque pas la croissance, la récolte peut donc s'étaler sur plusieurs semaines au-delà de ce premier point."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Épinard : Semis, Culture et Récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/culture-epinard.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Épinard qui monte en graines : 3 causes et comment éviter (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/epinard/culture/montee-en-graines",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

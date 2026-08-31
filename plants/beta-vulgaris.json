@@ -1,0 +1,45 @@
+{
+  "id": "beta-vulgaris",
+  "nomsFr": ["Betterave", "Betterave rouge"],
+  "nomLatin": "Beta vulgaris",
+  "famille": "Amaranthaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -5,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer en pleine terre",
+      "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
+      "urgence": "fenetre",
+      "conseil": "Gerbeaud range la betterave, comme la poirée, parmi les légumes qui se sèment à partir de 10°C au sol ; Octo-Jardin confirme le même seuil (« minimum 10°C »). Semer 2 à 3 graines tous les 25 cm, en sillons de 2 cm de profondeur espacés de 40 cm (Jardiner Malin), et éclaircir dès les premières feuilles."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Arracher les racines",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 70 },
+      "urgence": "souple",
+      "conseil": "Octo-Jardin distingue les variétés précoces (60 à 70 jours après le semis) des variétés tardives (90 à 120 jours) ; 70 jours retenu ici correspond à une variété précoce, à ajuster selon le sachet de semences réellement utilisé. Le signal fiable reste le diamètre de la racine, mais les sources ne s'accordent pas sur le seuil : 10 cm pour Jardiner Malin, 5 à 8 cm pour Octo-Jardin — mieux vaut vérifier à l'œil qu'attendre une taille précise, une betterave qui grossit trop devenant fibreuse."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Graines : températures de germination (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/temperature-de-germination-des-graines,2466.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "La betterave : guide complet pour cultiver ce légume savoureux au jardin (Octo-Jardin)",
+      "url": "https://octo-jardin.fr/la-betterave/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Betterave : semis, culture, entretien et récolte (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/betterave.html",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

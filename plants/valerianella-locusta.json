@@ -1,0 +1,45 @@
+{
+  "id": "valerianella-locusta",
+  "nomsFr": ["Mâche", "Doucette"],
+  "nomLatin": "Valerianella locusta",
+  "famille": "Valerianaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -15,
+  "heuresSoleilMin": 4,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "frais" },
+  "gestes": [
+    {
+      "type": "semis-direct",
+      "libelle": "Semer pour la récolte d'hiver",
+      "quand": { "ancre": "premiere-gelee", "quantile": 0.5, "decalageJours": -42 },
+      "urgence": "fenetre",
+      "conseil": "Terre Vivante distingue deux fenêtres : les variétés à grosses graines se sèment de mi-juillet à fin août pour une récolte d'automne, les variétés d'hiver (« Vit », « Verte d'Étampes ») d'août à fin octobre pour une récolte de décembre à mars. Cette fiche retient la seconde et la traduit en un décalage d'environ 6 semaines avant la première gelée — une estimation propre à cette fiche, la source raisonnant en mois plutôt qu'en délai avant le gel. Domaine Dallot signale par ailleurs qu'au-delà de 22°C la graine peut entrer en dormance thermique : un semis trop précoce en plein été ne lève pas mieux qu'un semis trop tardif."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter tout l'hiver",
+      "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 120 },
+      "urgence": "souple",
+      "conseil": "aujardin.info compte trois à cinq mois entre le semis et la première récolte, une fourchette large qui reflète surtout la lenteur croissante du froid d'automne en avançant dans la saison ; 120 jours retenu ici est une valeur médiane. Une fois commencée, la récolte se poursuit feuille après feuille jusqu'à fin mars (Terre Vivante), la mâche restant en terre tout l'hiver sans dommage."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "La mâche : semer, entretenir, récolter (Terre Vivante)",
+      "url": "https://www.terrevivante.org/contenu/mache-semer-entretenir-recolter/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Mâche, Valerianella (aujardin.info)",
+      "url": "https://www.aujardin.info/plantes/mache.php",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand semer la mâche : périodes et variétés clés (Domaine Dallot)",
+      "url": "https://domainedallot.fr/quand-semer-mache-varietes-astuces/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

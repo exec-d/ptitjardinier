@@ -1,5 +1,15 @@
 [
   {
+    "id": "allium-ascalonicum",
+    "nomsFr": [
+      "Échalote"
+    ],
+    "nomLatin": "Allium ascalonicum",
+    "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
     "id": "allium-cepa",
     "nomsFr": [
       "Oignon"
@@ -27,6 +37,61 @@
     ],
     "nomLatin": "Allium sativum",
     "famille": "Amaryllidaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "beta-cicla",
+    "nomsFr": [
+      "Blette",
+      "Poirée",
+      "Bette à cardes"
+    ],
+    "nomLatin": "Beta cicla",
+    "famille": "Amaranthaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "beta-vulgaris",
+    "nomsFr": [
+      "Betterave",
+      "Betterave rouge"
+    ],
+    "nomLatin": "Beta vulgaris",
+    "famille": "Amaranthaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "capsicum-annuum",
+    "nomsFr": [
+      "Poivron",
+      "Piment"
+    ],
+    "nomLatin": "Capsicum annuum",
+    "famille": "Solanaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "cucumis-sativus",
+    "nomsFr": [
+      "Concombre"
+    ],
+    "nomLatin": "Cucumis sativus",
+    "famille": "Cucurbitaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "cucurbita-maxima",
+    "nomsFr": [
+      "Courge",
+      "Potiron"
+    ],
+    "nomLatin": "Cucurbita maxima",
+    "famille": "Cucurbitaceae",
     "categorie": "potager",
     "confiance": "a-relire"
   },
@@ -91,6 +156,17 @@
     "confiance": "a-relire"
   },
   {
+    "id": "pisum-sativum",
+    "nomsFr": [
+      "Petit pois",
+      "Pois"
+    ],
+    "nomLatin": "Pisum sativum",
+    "famille": "Fabaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
     "id": "raphanus-sativus",
     "nomsFr": [
       "Radis"
@@ -122,6 +198,16 @@
     "confiance": "a-relire"
   },
   {
+    "id": "solanum-melongena",
+    "nomsFr": [
+      "Aubergine"
+    ],
+    "nomLatin": "Solanum melongena",
+    "famille": "Solanaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
     "id": "solanum-tuberosum",
     "nomsFr": [
       "Pomme de terre",
@@ -129,6 +215,27 @@
     ],
     "nomLatin": "Solanum tuberosum",
     "famille": "Solanaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "spinacia-oleracea",
+    "nomsFr": [
+      "Épinard"
+    ],
+    "nomLatin": "Spinacia oleracea",
+    "famille": "Amaranthaceae",
+    "categorie": "potager",
+    "confiance": "a-relire"
+  },
+  {
+    "id": "valerianella-locusta",
+    "nomsFr": [
+      "Mâche",
+      "Doucette"
+    ],
+    "nomLatin": "Valerianella locusta",
+    "famille": "Valerianaceae",
     "categorie": "potager",
     "confiance": "a-relire"
   }
