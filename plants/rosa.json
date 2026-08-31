@@ -1,0 +1,56 @@
+{
+  "id": "rosa",
+  "nomsFr": ["Rosier", "Rosier de jardin"],
+  "nomLatin": "Rosa",
+  "famille": "Rosaceae",
+  "categorie": "ornement",
+  "cycle": "arbustive",
+  "rusticiteMinC": -20,
+  "heuresSoleilMin": 6,
+  "feuillage": "caduc",
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille-dormance",
+      "libelle": "Tailler à la reprise de végétation",
+      "quand": { "ancre": "dormance", "phase": "fin", "decalageJours": -14 },
+      "urgence": "fenetre",
+      "conseil": "Quand les bourgeons commencent tout juste à gonfler, avant le débourrement ; jamais pendant un coup de gel, sous peine de griller les jeunes pousses que la coupe fait repartir."
+    },
+    {
+      "type": "suppression-fleurs-fanees",
+      "libelle": "Supprimer les fleurs fanées",
+      "quand": { "ancre": "geste-precedent", "geste": "taille-dormance", "jours": 56 },
+      "urgence": "souple",
+      "conseil": "Couper la tige environ 5 feuilles sous la fleur fanée : une nouvelle pousse refleurira sous 6 à 8 semaines. Sur un rosier remontant, à renouveler à chaque fin de floraison (grossièrement toutes les 3 semaines) pour prolonger la remontée jusqu'à l'automne."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Taille des rosiers - nos conseils ! (Blog Guillot, 9 février 2021)",
+      "url": "https://blog.roses-guillot.com/taille-des-rosiers-ce-quil-faut-savoir/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Enlever les fleurs fanées (Roseraie du Val-de-Marne)",
+      "url": "https://roseraie.valdemarne.fr/actualites/enlever-fleurs-fanees-63.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Remontée de floraison : comment tailler ? (Pépinières et Roseraies de Bourgogne / Pépinières Dima, 12 décembre 2024)",
+      "url": "https://www.pepinieres-dima.com/conseils-jardinage/conseils-rosiers/comment-pratiquer-la-taille-pour-favoriser-la-refloraison-des-rosiers-et-maintenir-un-bon-etat-sanitaire.",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "L'effeuillage des fleurs fanées sur les rosiers : technique, période et résultats saison par saison (Jardiner Malin)",
+      "url": "https://www.jardiner-malin.fr/fiche/leffeuillage-des-fleurs-fanees-sur-les-rosiers-technique-periode-et-resultats-saison-par-saison.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Quand Les Rosiers Fleurissent-ils ? (Eldorado Plantes, 17 mars 2021)",
+      "url": "https://eldorado-plantes.com/roses/quand-les-rosiers-fleurissent/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

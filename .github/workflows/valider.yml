@@ -1,0 +1,33 @@
+# Valide chaque fiche plante contre le schéma dès qu'une fiche ou le schéma
+# lui-même changent. Le pari du projet (sept ancres suffisent) ne vaut que
+# si personne ne peut faire passer une fiche fautive ou un vocabulaire élargi
+# sans que ce garde-fou ne le voie.
+name: Valider les fiches
+
+on:
+  push:
+    paths:
+      - "plants/**"
+      - "schema/**"
+  pull_request:
+    paths:
+      - "plants/**"
+      - "schema/**"
+
+jobs:
+  valider:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: python -m pip install -r tools/requirements.txt
+
+      - name: Valider les fiches
+        run: python tools/valider.py

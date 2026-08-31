@@ -1,0 +1,68 @@
+{
+  "id": "malus-domestica",
+  "nomsFr": ["Pommier"],
+  "nomLatin": "Malus domestica",
+  "famille": "Rosaceae",
+  "categorie": "verger",
+  "cycle": "arboree",
+  "rusticiteMinC": -25,
+  "heuresSoleilMin": 6,
+  "feuillage": "caduc",
+  "sol": { "phMin": 6.0, "phMax": 7.5, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "taille-hiver",
+      "libelle": "Tailler la charpente",
+      "quand": { "ancre": "dormance", "phase": "debut", "decalageJours": 21 },
+      "urgence": "fenetre",
+      "conseil": "Après la chute des feuilles et avant le débourrement, hors gel.",
+      "conditions": [{ "temperature-glissante-7j": { "min": -5 } }]
+    },
+    {
+      "type": "eclaircissage",
+      "libelle": "Éclaircir les bouquets",
+      "quand": { "ancre": "degres-jours", "seuil": 250 },
+      "urgence": "fenetre",
+      "conseil": "Un fruit par bouquet ; l'arbre porte mieux et alterne moins."
+    },
+    {
+      "type": "taille-vert",
+      "libelle": "Tailler en vert",
+      "quand": { "ancre": "geste-precedent", "geste": "eclaircissage", "jours": 45 },
+      "urgence": "souple"
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Apples and pears: winter pruning (RHS Advice)",
+      "url": "https://www.rhs.org.uk/fruit/apples/winter-pruning",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Préparer la taille des arbres fruitiers (Gerbeaud)",
+      "url": "https://www.gerbeaud.com/jardin/fiches/fruitier-taille-preparation-automne.php3",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Apple Fruit Thinning: An Overview & Recommendations (Virginia Tech Tree Fruit Horticulture Updates, S. Sherif, 30 avril 2022)",
+      "url": "https://tree-fruit-horticulture.vaes.vt.edu/2022/04/30/apple-fruit-thinning-an-overview-recommendations%EF%BF%BC/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Cornell Apple Carbohydrate Thinning Model (NEWA, Cornell University)",
+      "url": "https://www.newa.cornell.edu/apple-carbohydrate-thinning",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Taille en vert du pommier : astuces et conseils professionnels (Mon Coach Jardin)",
+      "url": "https://www.mon-coach-jardin.fr/taille-vert-fruitiers-guide-pratique/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Optimisez votre verger avec la taille en vert et l'éclaircissage des fruitiers (RTBF Actus, Olivier Allard, 1 juillet 2024)",
+      "url": "https://www.rtbf.be/article/optimisez-votre-verger-avec-la-taille-en-vert-et-l-eclaircissage-des-fruitiers-11396476",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}

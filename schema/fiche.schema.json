@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Fiche plante P'tit Jardinier",
+  "type": "object",
+  "required": ["id", "nomsFr", "nomLatin", "famille", "categorie", "cycle",
+               "rusticiteMinC", "heuresSoleilMin", "gestes", "sources", "confiance"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z]+(-[a-z]+)*$" },
+    "nomsFr": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+    "nomLatin": { "type": "string" },
+    "famille": { "type": "string" },
+    "categorie": { "enum": ["potager", "aromatique", "petit-fruit", "verger", "ornement"] },
+    "cycle": { "enum": ["annuelle", "bisannuelle", "vivace", "arbustive", "arboree"] },
+    "rusticiteMinC": { "type": "number" },
+    "heuresSoleilMin": { "type": "number", "minimum": 0, "maximum": 16 },
+    "feuillage": { "enum": ["caduc", "persistant"] },
+    "sol": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "phMin": { "type": "number" }, "phMax": { "type": "number" },
+        "drainage": { "enum": ["drainant", "frais", "humide"] }
+      }
+    },
+    "gestes": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/geste" } },
+    "sources": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/source" } },
+    "confiance": { "enum": ["verifie", "a-relire"] }
+  },
+  "$defs": {
+    "source": {
+      "type": "object", "required": ["titre", "consulte"],
+      "additionalProperties": false,
+      "properties": {
+        "titre": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "consulte": { "type": "string", "format": "date" }
+      }
+    },
+    "geste": {
+      "type": "object",
+      "required": ["type", "libelle", "quand", "urgence"],
+      "additionalProperties": false,
+      "properties": {
+        "type": { "type": "string" },
+        "libelle": { "type": "string" },
+        "quand": { "$ref": "#/$defs/quand" },
+        "conditions": { "type": "array", "items": { "type": "object" } },
+        "urgence": { "enum": ["critique", "fenetre", "souple"] },
+        "conseil": { "type": "string" },
+        "declenche": { "type": "array", "items": { "$ref": "#/$defs/geste" } }
+      }
+    },
+    "quand": {
+      "type": "object",
+      "required": ["ancre"],
+      "additionalProperties": false,
+      "properties": {
+        "ancre": {
+          "enum": ["derniere-gelee", "premiere-gelee", "degres-jours",
+                   "temperature-glissante-7j", "photoperiode", "dormance",
+                   "geste-precedent", "date-civile"]
+        },
+        "quantile": { "type": "number", "minimum": 0, "maximum": 1 },
+        "decalageJours": { "type": "integer" },
+        "seuil": { "type": "number" },
+        "geste": { "type": "string" },
+        "jours": { "type": "integer" },
+        "date": { "type": "string", "pattern": "^\\d{2}-\\d{2}$" },
+        "phase": { "enum": ["debut", "fin"] }
+      }
+    }
+  }
+}

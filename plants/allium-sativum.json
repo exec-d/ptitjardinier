@@ -1,0 +1,67 @@
+{
+  "id": "allium-sativum",
+  "nomsFr": ["Ail", "Ail commun"],
+  "nomLatin": "Allium sativum",
+  "famille": "Amaryllidaceae",
+  "categorie": "potager",
+  "cycle": "annuelle",
+  "rusticiteMinC": -20,
+  "heuresSoleilMin": 6,
+  "sol": { "phMin": 6.0, "phMax": 7.0, "drainage": "drainant" },
+  "gestes": [
+    {
+      "type": "plantation",
+      "libelle": "Planter les caïeux",
+      "quand": { "ancre": "premiere-gelee", "quantile": 0.5, "decalageJours": -35 },
+      "urgence": "fenetre",
+      "conseil": "Caïeux pointe vers le haut, 3 cm de profondeur, 4 à 6 semaines avant les premières gelées : les racines s'installent avant l'hiver sans que le feuillage ne perce."
+    },
+    {
+      "type": "arret-arrosage",
+      "libelle": "Arrêter l'arrosage",
+      "quand": { "ancre": "photoperiode", "seuil": 13 },
+      "urgence": "fenetre",
+      "conseil": "Passé environ 13 heures de jour, la plante cesse de produire des feuilles et concentre son énergie dans le bulbe : c'est le signal pour arrêter tout apport d'azote et laisser le sol s'assécher progressivement, quelle que soit la date du calendrier."
+    },
+    {
+      "type": "recolte",
+      "libelle": "Récolter les bulbes",
+      "quand": { "ancre": "geste-precedent", "geste": "arret-arrosage", "jours": 21 },
+      "urgence": "fenetre",
+      "conseil": "Confirmer avec les feuilles : les deux tiers inférieurs doivent être secs ou jaunes, le tiers supérieur encore vert. Ne pas attendre que tout le feuillage soit sec, les gousses se séparent alors."
+    }
+  ],
+  "sources": [
+    {
+      "titre": "Response of garlic (Allium sativum L.) bolting and bulbing to temperature and photoperiod treatments (Wu, Wang, Cheng & Meng, 2016)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4890667/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "The Trick That Produces Bigger Garlic Bulbs: Cold, Photoperiod, and the 10-Hour Rule",
+      "url": "https://www.theweather.com/news/plants/the-trick-that-produces-bigger-garlic-bulbs-cold-photoperiod-and-the-10-hour-rule.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Réussir la culture de l'ail (La Ferme de Sainte Marthe)",
+      "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-de-lail",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Cultiver l'ail : arrosage, désherbage et hampe florale (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/ail/culture",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Récolter l'ail : quand et comment selon les signes visuels (PotagerFruitier)",
+      "url": "https://www.potagerfruitier.com/potager/ail/recolte",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Ail : semis, récolte, entretien (Plantez Chez Nous)",
+      "url": "https://www.plantezcheznous.com/fiches-pratiques/ail-semis-recolte-entretien/",
+      "consulte": "2026-08-31"
+    }
+  ],
+  "confiance": "a-relire"
+}
