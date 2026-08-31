@@ -23,7 +23,7 @@
       "libelle": "Éclaircir les bouquets",
       "quand": { "ancre": "degres-jours", "seuil": 250 },
       "urgence": "fenetre",
-      "conseil": "Un fruit par bouquet ; l'arbre porte mieux et alterne moins."
+      "conseil": "Un fruit par bouquet ; l'arbre porte mieux et alterne moins. Le seuil de 250°C·j (degrés-jours depuis la pleine floraison) est un ordre de grandeur plausible, non vérifié précisément à la source : à confirmer en relecture avant de lui faire confiance au jour près."
     },
     {
       "type": "taille-vert",

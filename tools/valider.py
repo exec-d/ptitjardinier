@@ -1,11 +1,13 @@
 """Valide les fiches plantes publiées.
 
 Le schéma JSON couvre la forme. Ce script couvre ce qu'un schéma ne sait pas
-dire : qu'un identifiant de fichier corresponde à son contenu, qu'un geste
-enchaîné pointe un geste qui existe, et que le vocabulaire des ancres n'ait
-pas grossi en douce. La troisième vérification est la plus importante : le
-pari du projet est que sept ancres suffisent, et une huitième ajoutée sans
-décision le perdrait sans que personne ne le remarque.
+dire : qu'un identifiant de fichier corresponde à son contenu, qu'une ancre
+geste-precedent — qu'elle apparaisse au premier niveau des gestes d'une
+fiche ou dans un enchaînement « declenche » — pointe un geste qui existe
+réellement dans la fiche, et que le vocabulaire des ancres n'ait pas grossi
+en douce. La troisième vérification est la plus importante : le pari du
+projet est que sept ancres suffisent, et une huitième ajoutée sans décision
+le perdrait sans que personne ne le remarque.
 """
 
 import json
@@ -21,16 +23,17 @@ ANCRES_ATTENDUES = {
 }
 
 
-def types_de_gestes(gestes):
+def tous_les_gestes(gestes):
+    """Aplatit l'arbre des gestes d'une fiche : premier niveau et
+    enchaînements (« declenche ») confondus, à toute profondeur."""
     for geste in gestes:
-        yield geste["type"]
-        yield from types_de_gestes(geste.get("declenche", []))
+        yield geste
+        yield from tous_les_gestes(geste.get("declenche", []))
 
 
 def ancres_utilisees(gestes):
-    for geste in gestes:
+    for geste in tous_les_gestes(gestes):
         yield geste["quand"]["ancre"]
-        yield from ancres_utilisees(geste.get("declenche", []))
 
 
 def main() -> int:
@@ -61,14 +64,14 @@ def main() -> int:
         if fiche["id"] != chemin.stem:
             fautes.append(f"{chemin.name} : id « {fiche['id']} » ≠ nom de fichier")
 
-        connus = set(types_de_gestes(fiche["gestes"]))
-        for geste in fiche["gestes"]:
-            for enchaine in geste.get("declenche", []):
-                cible = enchaine["quand"].get("geste")
-                if cible is not None and cible not in connus:
-                    fautes.append(
-                        f"{chemin.name} : geste-precedent pointe « {cible} », absent"
-                    )
+        tous = list(tous_les_gestes(fiche["gestes"]))
+        connus = {geste["type"] for geste in tous}
+        for geste in tous:
+            cible = geste["quand"].get("geste")
+            if cible is not None and cible not in connus:
+                fautes.append(
+                    f"{chemin.name} : geste-precedent pointe « {cible} », absent"
+                )
 
     for faute in fautes:
         print(faute)

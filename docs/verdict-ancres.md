@@ -14,11 +14,33 @@ ancres, la récurrence d'un `geste-precedent`, montre une limite qui n'est
 pas une question de vocabulaire d'ancre et qu'il faut documenter honnêtement
 plutôt que passer sous silence.
 
-Aucune des neuf occurrences de `quand.ancre` dans les trois fiches n'utilise
+Aucune des huit occurrences de `quand.ancre` dans les trois fiches n'utilise
 `date-civile`. C'est le résultat le plus important de cette tâche : le cas
 conçu pour faire craquer le vocabulaire — l'ail, dont la bulbaison répond à
 la durée du jour et non à la température — s'exprime proprement avec
 `photoperiode`, sans triche.
+
+### Une nuance nécessaire : `temperature-glissante-7j` n'a jamais porté un geste
+
+Sur les huit occurrences de `quand.ancre`, cinq concepts d'ancre distincts
+sont exercés comme **déclencheur primaire** : la gelée (`premiere-gelee`,
+plantation de l'ail), `degres-jours` (éclaircissage du pommier),
+`photoperiode` (arrêt d'arrosage de l'ail), `dormance` (taille du pommier
+et du rosier) et `geste-precedent` (les trois chaînages). `date-civile`
+n'est utilisée nulle part — c'est le résultat recherché, déjà souligné
+plus haut. Mais `temperature-glissante-7j` non plus n'est jamais utilisée
+comme ancre primaire : elle n'apparaît qu'une fois, dans le champ libre
+`conditions` de la taille hivernale du pommier (`{"min": -5}`), une
+structure que le schéma ne type pas et que ce comptage d'ancres ne
+capture pas. Concrètement : sur les sept ancres, six ont été mises à
+l'épreuve d'une façon ou d'une autre (cinq comme déclencheur primaire,
+`date-civile` par son absence délibérée), et une seule —
+`temperature-glissante-7j` — n'a servi que de garde-fou secondaire, sans
+jamais avoir eu à porter seule un geste. Cela ne change pas le verdict :
+aucun des trois cas n'en avait besoin comme déclencheur principal. Mais
+ça reste à vérifier sur un futur cas d'usage plus directement gouverné par
+un risque météo court terme (gel tardif, canicule) plutôt que par une
+saison entière.
 
 ## Ce que chaque fiche a éprouvé
 
@@ -69,12 +91,20 @@ ici, ce n'est pas non plus une décision de vocabulaire d'ancre.
 ### Ail — `photoperiode`, le cas qui devait faire craquer le vocabulaire
 
 Le geste central, `arret-arrosage`, s'ancre sur `photoperiode` avec un
-seuil de 13 heures de jour : passé ce seuil, l'ail cesse de produire des
-feuilles et concentre son énergie dans le bulbe, un mécanisme confirmé par
-la littérature scientifique (Wu et al. 2016, revue à comité de lecture) et
-indépendant de la température ou de la date. C'est précisément le geste que
-le brief attendait de cette fiche, et il s'exprime sans effort avec
-l'ancre prévue pour ça.
+seuil de 13 heures de jour. Il faut être précis sur ce que dit la source :
+Wu et al. (2016, revue à comité de lecture) montrent qu'une température
+plus élevée et une photopériode plus longue sont **toutes deux
+nécessaires** à la bulbaison, et que les deux facteurs interagissent — à
+15°C, la bulbaison reste quasi nulle quelle que soit la durée du jour.
+`photoperiode` n'est donc pas un facteur indépendant de la température.
+Ce qui en fait néanmoins la bonne ancre n'est pas qu'elle agisse seule,
+c'est qu'elle est le **déclencheur datable** : la température fixe une
+condition nécessaire mais ne dit pas *quand*, d'une année sur l'autre,
+alors que le franchissement d'un seuil de durée du jour est prévisible et
+calculable indépendamment du climat de la saison. C'est précisément le
+geste que le brief attendait de cette fiche, et il s'exprime sans effort
+avec l'ancre prévue pour ça — sans que cela revienne à écarter la
+température du tableau.
 
 Les deux autres gestes utilisent des combinaisons jusque-là inemployées par
 le pommier : `plantation` combine `premiere-gelee` avec `quantile` (0.5) et
