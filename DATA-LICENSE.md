@@ -57,12 +57,14 @@ suivante), ni le code de ce dépôt (dernière section).
 L'application affiche des données climatiques et un référentiel de communes qui ne sont **pas**
 publiés dans ce dépôt : ils viennent de
 [`exec-d/plusdsaison`](https://github.com/exec-d/plusdsaison), qui impose ses propres
-attributions obligatoires. Les mentions ci-dessous sont reprises **verbatim** depuis
-`DATA-LICENSE.md` de `exec-d/plusdsaison` (section par section), consulté le 2026-08-31 ; en cas
-de divergence future, ce sont les mentions de `exec-d/plusdsaison` qui font foi. Elles ne sont
-**pas** couvertes par la licence CC BY-SA de la section précédente : Copernicus, Météo-France et
-l'IGN imposent leurs propres conditions, indépendantes de ce que ce dépôt choisit pour son propre
-contenu.
+attributions obligatoires. Ce qui suit est **rédigé ici** pour présenter chaque source ; seuls
+les **blocs cités** (encadrés `>`) et le DOI sont repris **verbatim** depuis `DATA-LICENSE.md` de
+`exec-d/plusdsaison` (consulté le 2026-08-31) — ce sont eux les mentions obligatoires, et c'est
+leur exactitude qui compte. En cas de divergence future entre les phrases de présentation
+ci-dessous et le contenu réel de `exec-d/plusdsaison`, ce sont les mentions de
+`exec-d/plusdsaison` qui font foi. Ces mentions ne sont **pas** couvertes par la licence CC BY-SA
+de la section précédente : Copernicus, Météo-France et l'IGN imposent leurs propres conditions,
+indépendantes de ce que ce dépôt choisit pour son propre contenu.
 
 ### Copernicus Climate Change Service (C3S) — ERA5-Land
 

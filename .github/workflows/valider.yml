@@ -9,6 +9,15 @@
 # commitées. Un index périmé est pire qu'absent : il fait disparaître
 # silencieusement des fiches de la recherche, sans qu'aucune erreur ne le
 # signale ailleurs.
+#
+# Les déclencheurs couvrent donc aussi tools/valider.py et
+# tools/construire_index.py, pas seulement plants/** et schema/** : une
+# modification qui ne touche que le générateur (un bump de format_version,
+# un champ ajouté à l'index) ou que le validateur ne doit pas pouvoir passer
+# sans que ce garde-fou tourne — ce serait le même silence que celui qu'il
+# existe pour attraper, déplacé sur une autre surface d'édition.
+# manifest.json est listé explicitement pour la même raison ;
+# plants/index.json n'a pas besoin de l'être, déjà couvert par "plants/**".
 name: Valider les fiches
 
 on:
@@ -16,10 +25,16 @@ on:
     paths:
       - "plants/**"
       - "schema/**"
+      - "tools/valider.py"
+      - "tools/construire_index.py"
+      - "manifest.json"
   pull_request:
     paths:
       - "plants/**"
       - "schema/**"
+      - "tools/valider.py"
+      - "tools/construire_index.py"
+      - "manifest.json"
 
 jobs:
   valider:
