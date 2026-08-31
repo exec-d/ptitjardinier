@@ -14,7 +14,7 @@
       "libelle": "Semer en pleine terre",
       "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
       "urgence": "fenetre",
-      "conseil": "En dessous de 7-8°C au sol, les graines restent en dormance ou pourrissent (Gerbeaud). La levée reste de toute façon lente juste au-dessus du seuil (10 à 20 jours) et s'accélère à mesure que le sol se réchauffe, avec un optimum autour de 16°C (Vilmorin)."
+      "conseil": "En dessous de 7-8°C au sol, les graines restent en dormance ou pourrissent (Gerbeaud). Vilmorin précise que la germination proprement dite s'effectue une fois le sol au-delà de 10°C, en 10 à 20 jours : la levée reste lente juste au-dessus du seuil minimum et s'accélère ensuite, mais aucune des sources consultées ne chiffre précisément une température optimale au-delà de ce repère."
     },
     {
       "type": "recolte",

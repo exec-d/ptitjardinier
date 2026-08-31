@@ -28,7 +28,7 @@
       "libelle": "Récolter les fruits",
       "quand": { "ancre": "geste-precedent", "geste": "repiquage", "jours": 60 },
       "urgence": "souple",
-      "conseil": "Compter environ 2 mois entre le semis et la première récolte. Une fois lancée, la récolte est continue jusqu'aux premières gelées (octobre au nord, novembre au sud) : cueillir tous les 2 à 3 jours, encore petites (15 à 20 cm), relance la production plutôt que de l'épuiser — ce n'est pas un geste ponctuel mais une routine à reprendre pendant toute la belle saison."
+      "conseil": "Compter environ 2 mois entre le semis et la première récolte. Une fois lancée, la récolte est continue jusqu'aux premières gelées (octobre au nord, novembre au sud) : cueillir les fruits encore petits, à l'image de ceux du supermarché, plutôt que de les laisser mûrir et grossir sur le pied (Jardiner Malin) — ce n'est pas un geste ponctuel mais une routine à reprendre pendant toute la belle saison."
     }
   ],
   "sources": [

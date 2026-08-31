@@ -14,14 +14,14 @@
       "libelle": "Semer en pleine terre",
       "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
       "urgence": "fenetre",
-      "conseil": "Un des tout premiers semis de printemps possibles : Gerbeaud le classe, avec la carotte et la laitue, parmi les légumes qui germent dès 7-8°C au sol. La levée est nettement plus rapide (3 à 4 jours) à des températures plus hautes, 15 à 18°C. Le radis est par ailleurs plutôt résistant au froid une fois levé (La Ferme de Sainte Marthe)."
+      "conseil": "Un des tout premiers semis de printemps possibles : Gerbeaud le classe, avec la carotte et la laitue, parmi les légumes qui germent dès 7-8°C au sol, et Jardinier paresseux situe sa plage de germination à 7-35°C — deux sources indépendantes qui convergent sur ce seuil bas. Planète Agrobio précise et nuance : croissance nulle en dessous de 6-8°C, germination possible dès 8-12°C, mais levée vraiment rapide (5 à 6 jours) seulement à partir de 15°C. La Ferme de Sainte Marthe donne de son côté une fourchette nettement plus haute (17-29°C) pour le même geste ; faute de pouvoir vérifier ce que cette page entend exactement par « température de germination », je retiens le seuil bas convergent (7-8°C) comme déclencheur de semis plutôt que cette fourchette isolée — à trancher en relecture. Le radis est par ailleurs plutôt résistant au froid une fois levé (La Ferme de Sainte Marthe)."
     },
     {
       "type": "recolte",
       "libelle": "Récolter les racines",
       "quand": { "ancre": "geste-precedent", "geste": "semis-direct", "jours": 28 },
       "urgence": "fenetre",
-      "conseil": "4 à 6 semaines selon la variété (La Ferme de Sainte Marthe). Ne pas laisser en terre au-delà : le radis est le légume le plus rapide du potager, et une racine qui vieillit devient creuse et piquante plutôt que de simplement grossir."
+      "conseil": "4 à 6 semaines selon la variété (La Ferme de Sainte Marthe), 3 à 5 semaines selon Planète Agrobio (jusqu'à 18 jours pour les variétés les plus rapides) : deux sources cohérentes sur un ordre de grandeur d'environ un mois. Ne pas laisser en terre au-delà : le radis est le légume le plus rapide du potager, et une racine qui vieillit devient creuse et piquante plutôt que de simplement grossir."
     }
   ],
   "sources": [
@@ -33,6 +33,16 @@
     {
       "titre": "Réussir la culture des radis (La Ferme de Sainte Marthe)",
       "url": "https://www.fermedesaintemarthe.com/en/blogs/comment-reussir-la-culture-de/reussir-la-culture-des-radis",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Températures de germination : légumes et herbes aromatiques (Jardinier paresseux)",
+      "url": "https://jardinierparesseux.com/2018/02/28/temperatures-de-germination-legumes-et-herbes-aromatiques/",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Cultiver le radis : le guide pratique (Planète Agrobio)",
+      "url": "https://www.planete-agrobio.com/cultiver-le-radis/",
       "consulte": "2026-08-31"
     }
   ],

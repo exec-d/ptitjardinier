@@ -14,7 +14,7 @@
       "libelle": "Semer en pleine terre",
       "quand": { "ancre": "temperature-glissante-7j", "seuil": 8 },
       "urgence": "fenetre",
-      "conseil": "Comme la carotte et le radis, la laitue germe dès 7-8°C au sol (Gerbeaud). Mais elle a aussi un plafond que ce seuil bas ne capture pas : au-delà de 20°C la germination ralentit, et une thermodormance peut la bloquer complètement au-delà de 25°C (Jardiner Malin) — un sol d'été trop chaud empêche la levée aussi sûrement qu'un sol de sortie d'hiver trop froid. Semer à l'ombre et tenir le sol frais en période chaude."
+      "conseil": "Comme la carotte et le radis, la laitue germe dès 7-8°C au sol (Gerbeaud). Mais elle a aussi un plafond que ce seuil bas ne capture pas : au-delà de 20°C, la germination ralentit et devient difficile (Jardiner Malin) — un sol d'été trop chaud empêche la levée aussi sûrement qu'un sol de sortie d'hiver trop froid. Semer à l'ombre et tenir le sol frais en période chaude, surtout pour les semis d'été."
     },
     {
       "type": "recolte",

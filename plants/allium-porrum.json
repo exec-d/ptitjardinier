@@ -14,14 +14,14 @@
       "libelle": "Semer en pépinière",
       "quand": { "ancre": "temperature-glissante-7j", "seuil": 10 },
       "urgence": "fenetre",
-      "conseil": "Germination en 1 à 3 semaines entre 10 et 23°C (Gerbeaud)."
+      "conseil": "Gerbeaud range le poireau parmi les légumes qui se sèment à partir de 10°C au sol. Jardinier paresseux situe sa température de germination optimale plus haut, entre 18 et 24°C — deux repères différents (seuil minimum de semis contre optimum de germination), pas une contradiction : semer dès 10°C, en s'attendant à une levée plus lente et plus irrégulière que dans la fourchette optimale."
     },
     {
       "type": "repiquage",
       "libelle": "Repiquer au stade crayon",
       "quand": { "ancre": "geste-precedent", "geste": "semis-pepiniere", "jours": 63 },
       "urgence": "fenetre",
-      "conseil": "Repiquer quand la tige atteint le diamètre d'un crayon (5 à 7 mm), stade en général atteint 8 à 10 semaines après le semis — se fier au diamètre de la tige plutôt qu'au calendrier si la levée a été plus lente ou plus rapide que prévu. Habiller les plants avant la mise en place : racines coupées à 1 cm, feuillage réduit d'un tiers (Gerbeaud)."
+      "conseil": "Repiquer quand la tige atteint le diamètre d'un crayon, en général entre la mi-juin et la mi-juillet (Gerbeaud) — se fier avant tout à ce diamètre, pas au calendrier, si la levée a été plus lente ou plus rapide que prévu. Habiller les plants avant la mise en place : racines coupées à 1 cm, feuillage réduit d'un tiers (Gerbeaud). Le délai de 9 semaines retenu ici entre semis et repiquage est une estimation de cette fiche, non donnée telle quelle par la source."
     },
     {
       "type": "recolte",
@@ -40,6 +40,11 @@
     {
       "titre": "Repiquage des poireaux d'hiver : quand, comment ? (Gerbeaud)",
       "url": "https://www.gerbeaud.com/jardin/fiches/repiquage-poireau-hiver,1418.html",
+      "consulte": "2026-08-31"
+    },
+    {
+      "titre": "Températures de germination : légumes et herbes aromatiques (Jardinier paresseux)",
+      "url": "https://jardinierparesseux.com/2018/02/28/temperatures-de-germination-legumes-et-herbes-aromatiques/",
       "consulte": "2026-08-31"
     }
   ],

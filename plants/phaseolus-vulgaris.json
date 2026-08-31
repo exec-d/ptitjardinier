@@ -14,7 +14,7 @@
       "libelle": "Semer en pleine terre",
       "quand": { "ancre": "temperature-glissante-7j", "seuil": 12 },
       "urgence": "fenetre",
-      "conseil": "En dessous de 12°C au sol, la graine pourrit plutôt que de germer ; la germination devient vraiment sûre entre 12 et 16°C, optimale entre 15 et 18°C (Comptoir des Jardins). Le haricot ne supporte aucun gel — une nuit à 0°C suffit à compromettre le semis : le seuil de sol suffit rarement seul à écarter tout risque, vérifier aussi qu'aucune gelée n'est annoncée dans les jours qui suivent le semis."
+      "conseil": "En dessous de 12°C au sol, la graine pourrit plutôt que de germer ; la germination optimale se situe entre 15 et 18°C (Comptoir des Jardins). Le haricot ne supporte aucun gel — une nuit à 0°C suffit à compromettre le semis : le seuil de sol suffit rarement seul à écarter tout risque, vérifier aussi qu'aucune gelée n'est annoncée dans les jours qui suivent le semis."
     },
     {
       "type": "recolte",
