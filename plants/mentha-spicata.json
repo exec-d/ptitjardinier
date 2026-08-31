@@ -26,9 +26,9 @@
     {
       "type": "division-touffe",
       "libelle": "Diviser la touffe",
-      "quand": { "ancre": "date-civile", "date": "09-15" },
+      "quand": { "ancre": "dormance", "phase": "debut", "decalageJours": 0 },
       "urgence": "fenetre",
-      "conseil": "Une fois bien installée, la touffe se divise en automne pour être replantée (Jardiner Malin) — un repère saisonnier plutôt qu'une date précise, faute de mieux dans la source. La fiche générale menthe du même site recommande de diviser tous les 2 à 3 ans, pour rajeunir la plante et contrôler ses rhizomes traçants, volontiers envahissants — une récurrence pluriannuelle qu'aucune ancre du vocabulaire n'exprime directement."
+      "conseil": "Une fois bien installée, la touffe se divise en automne pour être replantée (Jardiner Malin) : l'ancre dormance (début, +0 jour) situe cette entrée en dormance, la source ne précisant pas de repère plus fin qu'« en automne ». La fiche générale menthe du même site recommande de diviser tous les 2 à 3 ans, pour rajeunir la plante et contrôler ses rhizomes traçants, volontiers envahissants — une récurrence pluriannuelle qu'aucune ancre du vocabulaire n'exprime directement."
     }
   ],
   "sources": [
