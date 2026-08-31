@@ -16,9 +16,9 @@ plutôt que passer sous silence.
 
 Aucune des huit occurrences de `quand.ancre` dans les trois fiches n'utilise
 `date-civile`. C'est le résultat le plus important de cette tâche : le cas
-conçu pour faire craquer le vocabulaire — l'ail, dont la bulbaison répond à
-la durée du jour et non à la température — s'exprime proprement avec
-`photoperiode`, sans triche.
+conçu pour faire craquer le vocabulaire — l'ail, dont la bulbaison se
+déclenche à la durée du jour — s'exprime proprement avec `photoperiode`,
+sans triche.
 
 ### Une nuance nécessaire : `temperature-glissante-7j` n'a jamais porté un geste
 
