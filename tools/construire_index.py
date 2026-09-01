@@ -26,12 +26,25 @@ from pathlib import Path
 # Incrémenter à chaque changement de forme de index.json ou manifest.json
 # (ajout, retrait ou renommage d'un champ) : comme chez plusdsaison, c'est
 # ce qui invalide le cache de tous les clients installés.
-FORMAT_VERSION = 1
+FORMAT_VERSION = 2
 
 # Les seuls champs qu'un client doit lire pour chercher dans le catalogue
 # sans télécharger la fiche complète. L'ordre fixe l'ordre des clés dans
 # chaque entrée de l'index.
-CHAMPS_INDEX = ("id", "nomsFr", "nomLatin", "famille", "categorie", "confiance")
+#
+# heuresSoleilMin y figure depuis la version 2 : l'application filtre le
+# catalogue par coin de jardin, et sans ce champ dans l'index il lui
+# faudrait télécharger les trente-trois fiches complètes pour répondre à
+# « qu'est-ce que je peux planter ici ».
+CHAMPS_INDEX = (
+    "id",
+    "nomsFr",
+    "nomLatin",
+    "famille",
+    "categorie",
+    "confiance",
+    "heuresSoleilMin",
+)
 
 
 def charger_fiches(racine: Path) -> list[dict]:

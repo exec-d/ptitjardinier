@@ -7,7 +7,8 @@
     "nomLatin": "Allium cepa",
     "famille": "Amaryllidaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "allium-cepa-var-aggregatum",
@@ -17,7 +18,8 @@
     "nomLatin": "Allium cepa var. aggregatum",
     "famille": "Amaryllidaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "allium-porrum",
@@ -27,7 +29,8 @@
     "nomLatin": "Allium porrum",
     "famille": "Amaryllidaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "allium-sativum",
@@ -38,7 +41,8 @@
     "nomLatin": "Allium sativum",
     "famille": "Amaryllidaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "allium-schoenoprasum",
@@ -48,7 +52,8 @@
     "nomLatin": "Allium schoenoprasum",
     "famille": "Amaryllidaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "beta-vulgaris",
@@ -59,7 +64,8 @@
     "nomLatin": "Beta vulgaris",
     "famille": "Amaranthaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "beta-vulgaris-subsp-cicla",
@@ -71,7 +77,8 @@
     "nomLatin": "Beta vulgaris subsp. cicla",
     "famille": "Amaranthaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "brassica-oleracea-var-capitata",
@@ -83,7 +90,8 @@
     "nomLatin": "Brassica oleracea var. capitata",
     "famille": "Brassicaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "brassica-rapa-subsp-rapa",
@@ -93,7 +101,8 @@
     "nomLatin": "Brassica rapa subsp. rapa",
     "famille": "Brassicaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "capsicum-annuum",
@@ -104,7 +113,8 @@
     "nomLatin": "Capsicum annuum",
     "famille": "Solanaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "cucumis-sativus",
@@ -114,7 +124,8 @@
     "nomLatin": "Cucumis sativus",
     "famille": "Cucurbitaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "cucurbita-maxima",
@@ -125,7 +136,8 @@
     "nomLatin": "Cucurbita maxima",
     "famille": "Cucurbitaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "cucurbita-pepo",
@@ -135,7 +147,8 @@
     "nomLatin": "Cucurbita pepo",
     "famille": "Cucurbitaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "daucus-carota",
@@ -145,7 +158,8 @@
     "nomLatin": "Daucus carota",
     "famille": "Apiaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "lactuca-sativa",
@@ -155,7 +169,8 @@
     "nomLatin": "Lactuca sativa",
     "famille": "Asteraceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 4
   },
   {
     "id": "laurus-nobilis",
@@ -167,7 +182,8 @@
     "nomLatin": "Laurus nobilis",
     "famille": "Lauraceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 5
   },
   {
     "id": "malus-domestica",
@@ -177,7 +193,8 @@
     "nomLatin": "Malus domestica",
     "famille": "Rosaceae",
     "categorie": "verger",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "mentha-spicata",
@@ -188,7 +205,8 @@
     "nomLatin": "Mentha spicata",
     "famille": "Lamiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 4
   },
   {
     "id": "ocimum-basilicum",
@@ -198,7 +216,8 @@
     "nomLatin": "Ocimum basilicum",
     "famille": "Lamiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "petroselinum-crispum",
@@ -208,7 +227,8 @@
     "nomLatin": "Petroselinum crispum",
     "famille": "Apiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 4
   },
   {
     "id": "phaseolus-vulgaris",
@@ -218,7 +238,8 @@
     "nomLatin": "Phaseolus vulgaris",
     "famille": "Fabaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "pisum-sativum",
@@ -229,7 +250,8 @@
     "nomLatin": "Pisum sativum",
     "famille": "Fabaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "raphanus-sativus",
@@ -239,7 +261,8 @@
     "nomLatin": "Raphanus sativus",
     "famille": "Brassicaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "rosa",
@@ -250,7 +273,8 @@
     "nomLatin": "Rosa",
     "famille": "Rosaceae",
     "categorie": "ornement",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "salvia-officinalis",
@@ -261,7 +285,8 @@
     "nomLatin": "Salvia officinalis",
     "famille": "Lamiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "salvia-rosmarinus",
@@ -271,7 +296,8 @@
     "nomLatin": "Salvia rosmarinus",
     "famille": "Lamiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "solanum-lycopersicum",
@@ -281,7 +307,8 @@
     "nomLatin": "Solanum lycopersicum",
     "famille": "Solanaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "solanum-melongena",
@@ -291,7 +318,8 @@
     "nomLatin": "Solanum melongena",
     "famille": "Solanaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "solanum-tuberosum",
@@ -302,7 +330,8 @@
     "nomLatin": "Solanum tuberosum",
     "famille": "Solanaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "spinacia-oleracea",
@@ -312,7 +341,8 @@
     "nomLatin": "Spinacia oleracea",
     "famille": "Amaranthaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 3
   },
   {
     "id": "thymus-vulgaris",
@@ -323,7 +353,8 @@
     "nomLatin": "Thymus vulgaris",
     "famille": "Lamiaceae",
     "categorie": "aromatique",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   },
   {
     "id": "valerianella-locusta",
@@ -334,7 +365,8 @@
     "nomLatin": "Valerianella locusta",
     "famille": "Valerianaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 4
   },
   {
     "id": "vicia-faba",
@@ -344,6 +376,7 @@
     "nomLatin": "Vicia faba",
     "famille": "Fabaceae",
     "categorie": "potager",
-    "confiance": "a-relire"
+    "confiance": "a-relire",
+    "heuresSoleilMin": 6
   }
 ]
