@@ -51,8 +51,15 @@ jobs:
   valider:
     runs-on: ubuntu-latest
     steps:
+      # fetch-depth: 0 (historique complet) : tools/construire_index.py
+      # dérive manifest.json d'un `git log -- plants/`, qui a besoin de tout
+      # l'historique. Le défaut d'actions/checkout (fetch-depth: 1) ne
+      # récupère que le dernier commit et rendrait cette date fausse ou
+      # indisponible.
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Installer Python
         uses: actions/setup-python@v5

@@ -18,8 +18,9 @@ contenu source.
 """
 
 import json
+import subprocess
 import sys
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 # Incrémenter à chaque changement de forme de index.json ou manifest.json
@@ -44,11 +45,46 @@ def construire_index(fiches: list[dict]) -> list[dict]:
     return sorted(entrees, key=lambda entree: entree["id"])
 
 
-def construire_manifeste(n_fiches: int, aujourdhui: date) -> dict:
+def date_dernier_commit_plants(racine: Path) -> date:
+    """Date (UTC) du dernier commit qui a touché plants/ — la donnée que le
+    manifeste décrit, pas l'horloge du poste qui le régénère.
+
+    date.today() a été essayé et a produit un faux échec de CI en
+    production : un manifeste régénéré localement un soir, puis régénéré
+    par la CI le lendemain matin, sans qu'aucune fiche n'ait changé entre
+    les deux, ne contenait plus la même date. Un manifeste dont le contenu
+    change sans que la donnée change est faux ; il doit être reproductible
+    (régénérer deux fois sans rien changer doit produire deux fois le même
+    fichier), ce que seule une donnée dérivée de l'historique — et non de
+    l'instant de régénération — peut garantir.
+
+    Échoue bruyamment plutôt que de retomber en silence sur date.today() si
+    la date ne peut pas être obtenue de façon fiable (dépôt git absent,
+    historique tronqué par un clone superficiel, ou vraiment aucun commit
+    ne touchant encore plants/) : un repli silencieux réintroduirait
+    exactement le défaut qu'on corrige ici.
+    """
+    resultat = subprocess.run(
+        ["git", "log", "-1", "--format=%ct", "--", "plants/"],
+        cwd=racine, capture_output=True, text=True,
+    )
+    sortie = resultat.stdout.strip()
+    if resultat.returncode != 0 or not sortie:
+        raise RuntimeError(
+            "impossible de déterminer la date du dernier commit touchant "
+            "plants/ (dépôt git absent, historique tronqué — un clone CI a "
+            "besoin de fetch-depth: 0 — ou aucun commit ne touche encore "
+            "plants/). Pas de repli silencieux sur l'horloge du jour : "
+            "corriger la source plutôt que deviner la date."
+        )
+    return datetime.fromtimestamp(int(sortie), tz=timezone.utc).date()
+
+
+def construire_manifeste(n_fiches: int, mise_a_jour: date) -> dict:
     return {
         "format_version": FORMAT_VERSION,
         "n_fiches": n_fiches,
-        "updated": aujourdhui.isoformat(),
+        "updated": mise_a_jour.isoformat(),
     }
 
 
@@ -64,7 +100,7 @@ def main() -> int:
         return 1
 
     index = construire_index(fiches)
-    manifeste = construire_manifeste(len(fiches), date.today())
+    manifeste = construire_manifeste(len(fiches), date_dernier_commit_plants(racine))
 
     ecrire_json(racine / "plants" / "index.json", index)
     ecrire_json(racine / "manifest.json", manifeste)
